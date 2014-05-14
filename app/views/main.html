@@ -4,11 +4,10 @@
     <li><a ng-href="#">About</a></li>
     <li><a ng-href="#">Contact</a></li>
   </ul>
-  <a ng-push-menu="menu" class='btn btn-primary'>Menu</a>
   <h3 class="text-muted">cartonapp</h3>
 </div>
 
-<slick infinite="true" slides-to-show="1" easing="easeInExpo" dots="true">
+<slick infinite="true" slides-to-show="1" easing="easeInExpo" dots="">
   <div><h1>test slickr</h1></div>
   <div><h2>test slickr</h2></div>
   <div><h2>test slickr</h2></div>
@@ -42,18 +41,13 @@
   <p>Spectacular Test Runner for JavaScript.</p>
 </div>
 
+<div videogular vgAutoplay='true' vgWidth='500'>
+    <video class='videoPlayer'>
+        <source src='videos/v1.mp4'>
+    </video>
+</div>
+
 <div class="footer">
   <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
 </div>
 
-<button ng-push-menu="menu">Push menu</button>
-
-<ng-slide-push-menu id="menu" position="right">
-  <h3>Menu</h3>
-  <a href="#">Item 1</a>
-  <a href="#">Item 2</a>
-  <a href="#">Item 3</a>
-  <a href="#">Item 4</a>
-  <a href="#">Item 5</a>
-  <a href="#">Item 6</a>
-</ng-slide-push-menu>

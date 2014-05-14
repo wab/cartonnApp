@@ -2,7 +2,7 @@
 	{
 		"id": "category1",
 		"name": "category1",
-		"thumb": "",
+		"thumb": "images/yeoman.png",
 		"items": [
 				{
 				"order": 0,

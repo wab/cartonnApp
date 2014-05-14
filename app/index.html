@@ -12,21 +12,33 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css">
     <!-- endbower -->
+    <link rel="stylesheet" href="bower_components/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="bower_components/angular-snap/angular-snap.css" />
+    
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
 
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="cartonnApp">
+  <body ng-app="cartonnApp" data-snap-ignore="true">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+   
+    <nav snap-drawer>
+        <ul class="nav">
+            <li><a href="#/realisations">Les Réalisations</a></li>
+        </ul>
+    </nav>
+
+    <snap-content>
+        <button snap-toggle=""class="btn btn-primary">Menu</button>
+        <div class="container" ng-view></div>
+    </snap-content>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -55,7 +67,9 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/slick-carousel/slick/slick.min.js"></script>
     <script src="bower_components/angular-slick/dist/slick.js"></script>
-    <script src="bower_components/ng-slide-push/scripts/slide.and.push.js"></script>
+    <script src="bower_components/snapjs/snap.js"></script>
+    <script src="bower_components/angular-snap/angular-snap.js"></script>
+    <script src="bower_components/videogular/videogular.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

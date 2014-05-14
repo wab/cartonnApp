@@ -12,12 +12,14 @@
 		<div class="col-md-3">
 			<a class="thumbnail category" href="#/realisations/{{realisation.id}}">
 				<h2>{{realisation.name}}</h2>
+				<img ng-src="{{realisation.thumb}}" class="img-responsive">
 			</a>
 		</div>
 		
 		<div ng-repeat="item in realisation.items" class="col-md-2">
 			<a class="thumbnail realisation" href="#/realisations/{{item.id}}">
 				<h3>{{item.name}}</h3>
+				<img ng-src="{{item.thumb}}" class="img-responsive">
 			</a>
 		</div>
 			

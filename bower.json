@@ -1,6 +1,6 @@
 {
   "name": "cartonn",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "angular": "1.2.15",
     "json3": "~3.2.6",
@@ -12,7 +12,8 @@
     "angular-sanitize": "1.2.15",
     "angular-route": "1.2.15",
     "angular-slick": "~0.1.7",
-    "ng-slide-push": "~1.0.1"
+    "angular-snap": "~1.4.1",
+    "videogular" : "latest"
   },
   "devDependencies": {
     "angular-mocks": "1.2.15",

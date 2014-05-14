@@ -1,2 +1,13 @@
 <p>{{item.id}}</p>
 <h1>{{item.name}}</h1>
+<img ng-src="{{item.images[0]}}" class="pull-left">
+<p>{{item.desc}}</p>
+<p>{{item.refs.ref1}}</p>
+<ul>
+	<li ng-repeat="ref in item.refs">{{ref}}</li>
+</ul>
+<hr>
+{{item.imgs}}
+<ul>
+	<li ng-repeat="image in item.images"><img ng-src="{{image}}"></li>
+</ul>
