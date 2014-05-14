@@ -29,16 +29,14 @@
     
     <!-- Add your site or application content here -->
    
-    <nav snap-drawer>
-        <ul class="nav">
-            <li><a href="#/realisations">Les Réalisations</a></li>
-        </ul>
-    </nav>
+    <div snap-drawer>
+        <nav ng-include="'views/navigation.html'" ng-controller="NavigationCtrl"></nav>
+    </div>
 
-    <snap-content>
-        <button snap-toggle=""class="btn btn-primary">Menu</button>
-        <div class="container" ng-view></div>
-    </snap-content>
+    <div snap-content>
+        <button snap-toggle=""class="btn btn-lg btn-primary btn-menu">Menu</button>
+        <div class="container" ng-view=""></div>
+    </sdiv>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -78,6 +76,12 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/realisations.js"></script>
         <script src="scripts/controllers/realisationitem.js"></script>
+        <script src="scripts/controllers/entreprise.js"></script>
+        <script src="scripts/controllers/valeurs.js"></script>
+        <script src="scripts/controllers/outil.js"></script>
+        <script src="scripts/controllers/services.js"></script>
+        <script src="scripts/controllers/navigation.js"></script>
+        <script src="scripts/controllers/clients.js"></script>
         <!-- endbuild -->
 </body>
 </html>

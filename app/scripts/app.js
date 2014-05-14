@@ -24,8 +24,36 @@ cartonnApp.config(['$routeProvider', function ($routeProvider) {
       templateUrl: 'views/realisationitem.html',
       controller: 'RealisationitemCtrl'
     })
+    .when('/entreprise', {
+      templateUrl: 'views/entreprise.html',
+      controller: 'EntrepriseCtrl'
+    })
+    .when('/valeurs', {
+      templateUrl: 'views/valeurs.html',
+      controller: 'ValeursCtrl'
+    })
+    .when('/outil-industriel-performant', {
+      templateUrl: 'views/outil.html',
+      controller: 'OutilCtrl'
+    })
+    .when('/pourquoi-nous-choisir', {
+      templateUrl: 'views/services.html',
+      controller: 'ServicesCtrl'
+    })
+    .when('/clients', {
+      templateUrl: 'views/clients.html',
+      controller: 'ClientsCtrl'
+    })
     .otherwise({
       redirectTo: '/'
     });
 
+}])
+
+.config(['snapRemoteProvider', function(snapRemoteProvider) {
+  snapRemoteProvider.globalOptions = {
+    disable: 'right',
+    maxPosition: 300,
+    tapToClose: 'true'
+  };
 }]);
