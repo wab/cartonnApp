@@ -1,1 +1,10 @@
-<p>This is the entreprise view.</p>
+<header class="mainheader">
+	<h1>{{page.title[0]}} <span>{{page.title[1]}}</span></h1>
+</header>
+<div slick ng-transclude settings="slickConfig" control="slickHandle">
+	<div ng-repeat="slide in page.slides | orderBy: 'order' ">{{slide.texte[0]}}</div>
+</div>
+<p>nbr de slides: {{page.slides.length}}</p>
+<div ng-repeat="slide in page.slides | orderBy: 'order'">
+<a class="slide-btn" ng-click="slickHandle.slickGoTo({{slide.order}})">{{slide.title[0]}} <span>{{slide.title[1]}}</span></a>
+</div>
