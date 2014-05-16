@@ -1,10 +1,20 @@
 <header class="mainheader">
 	<h1>{{page.title[0]}} <span>{{page.title[1]}}</span></h1>
 </header>
-<div slick ng-transclude settings="slickConfig" control="slickHandle">
-	<div ng-repeat="slide in page.slides | orderBy: 'order' ">{{slide.texte[0]}}</div>
-</div>
-<p>nbr de slides: {{page.slides.length}}</p>
-<div ng-repeat="slide in page.slides | orderBy: 'order'">
-<a class="slide-btn" ng-click="slickHandle.slickGoTo({{slide.order}})">{{slide.title[0]}} <span>{{slide.title[1]}}</span></a>
+<div>
+	<div slick ng-transclude settings="slickConfig" control="slickHandle">
+		<div ng-repeat="slide in page.slides track by $index | orderBy: 'order'" data-id="{{slide.id}}">
+			<div class="slide row" style="background-image: url({{slide.image}});">
+				<div class="col-md-6">
+					<h2>{{slide.title[0]}}</h2>
+					<p>{{slide.texte[0]}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="nav-slider col-md-{{12 / page.slides.length | number:0}}" ng-repeat="slide in page.slides track by $index | orderBy: 'order'">
+			<a ng-click="slickHandle.slickGoTo($index)" ng-class="{active: islideActive(slide)}" data="{{active}}">{{slide.title[0]}} <span>{{slide.title[1]}}</span></a>
+		</div>
+	</div>
 </div>

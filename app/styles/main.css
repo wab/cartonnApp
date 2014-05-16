@@ -42,5 +42,30 @@ body {
 .nav .active a {color: #0194ca;}
 .nav li {
 	border-bottom: 1px solid #000; 
-	border-left: 2px solid #0194ca;
+	border-left: 4px solid #0194ca;
+}
+
+.slide {
+	padding: 20px;
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+}
+
+.nav-slider a {
+	display: block;
+	padding: 2em 4em;
+	cursor: pointer;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+}
+.nav-slider a:hover, .nav-slider a:focus {
+	color: #fff;
+	text-decoration: none;
+	background: #999;
+}
+.nav-slider a.active {
+	background: #555;
 }
