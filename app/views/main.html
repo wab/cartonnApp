@@ -1,14 +1,10 @@
 <div class="header">
- <h1>{{title}}</h1>
+ <h1>{{accueil.title}}</h1>
 </div>
 
-<slick infinite="true" slides-to-show="1" easing="easeInExpo" dots="">
-  <div><h1>test slick</h1></div>
-  <div><h2>test slick</h2></div>
-  <div><h2>test slick</h2></div>
-  <div><h2>test slick</h2></div>
-  <div><h2>test slick</h2></div>
-</slick>
+<div slick ng-transclude settings="slickConfig" control="slickHandle">
+  <div ng-repeat="slide in accueil.slides"><img ng-src="{{slide}}" class="img-responsive"></div>
+</div>
 
 <hr>
 

@@ -5,9 +5,9 @@ var cartonnApp = angular.module('cartonnApp', [
     'ngResource',
     'ngSanitize',
     'ngRoute',
-    'slick',
     'snap',
-    'com.2fdevs.videogular'
+    'com.2fdevs.videogular',
+    'bardo.directives'
   ]);
 
 cartonnApp.config(['$routeProvider', function ($routeProvider) {
