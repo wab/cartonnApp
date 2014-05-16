@@ -1,0 +1,10 @@
+{
+	"id": "accueil",
+	"title": "CartonnApp",
+	"metadesc" : "Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Cras molestie risus a enim convallis vitae luctus libero lacinia. Vestibulum sit amet ipsum lacus… Potenti et eros sed justo commodo bibendum non at nunc.<br>Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Cras molestie risus a enim convallis vitae luctus libero lacinia. Nulla vel magna sit amet dui lobortis commodo vitae vel nulla sit amet ante hendrerit tempus. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh (iaculis pretium sem orci aliquet mauris). Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc.",
+	"h1" : "CartonnAppH1",
+	"slides": [
+		"images/accueil/accueil-slider.jpg", 
+		"images/realisations/img1.jpg"
+	]
+}
