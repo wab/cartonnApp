@@ -1,6 +1,8 @@
 <div class="header">
- <h1>{{accueil.title}}</h1>
+ <h1>{{page.accueil.title}}</h1>
 </div>
+
+<div>{{page}}</div>
 
 <div slick ng-transclude settings="slickConfig" control="slickHandle">
   <div ng-repeat="slide in accueil.slides"><img ng-src="{{slide}}" class="img-responsive"></div>

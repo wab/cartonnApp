@@ -1,0 +1,68 @@
+{
+"accueil" :	{
+	"id": "accueil",
+	"title": "cartonnApp",
+	"slides": ["images/accueil/accueil-slider.jpg", "images/yeoman.png"]
+	},
+"entreprise": {
+	"id": "entreprise",
+	"title": ["notre", "entreprise"],
+	"slides": [
+		{
+			"id": "entreprise-1",
+			"order" : 2,
+			"title" : "Historique",
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				" 2 : Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		},
+		{
+			"id": "entreprise-2",
+			"order" : 0,
+			"title" : ["Chiffres", "Clés"],
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				"0 - Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		},
+		{
+			"id": "entreprise-3",
+			"order" : 1,
+			"title" : "Historique",
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				"1 : Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		}
+
+		]
+	},
+"valeurs": {
+	"id": "valeurs",
+	"title": ["nos", "valeurs"]
+
+	},
+"outil": {
+	"id": "outil",
+	"title": ["un outil industriel", "performant"]
+	},
+"services": {
+	"id": "services",
+	"title": ["pourquoi", "nous choisir ?"]
+	},
+"clients": {
+	"id": "clients",
+	"title": ["nos", "clients"]
+},
+"realisations": {
+	"id": "realisations",
+	"title": ["nos", "réalisations"]
+}
+}

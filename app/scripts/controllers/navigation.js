@@ -1,9 +1,11 @@
 'use strict';
 
-angular.module('cartonnApp')
-.controller('NavigationCtrl', function ($scope) {
-  $scope.title = 'test';
-})
+cartonnApp
+.controller('NavigationCtrl', ['$scope', '$http',  function ($scope, $http) {
+  $http.get('contenu.json').success(function(data) {
+    $scope.pages = data;
+  });
+}])
 .directive('trackActive', function($location) {
   function link(scope, element, attrs){
     scope.$watch(function() {
