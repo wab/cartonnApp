@@ -1,4 +1,4 @@
 <a href="#/" class="btn-accueil"></a>
-<ul class="nav" track-active snap-close>
-	<li ng-repeat="page in pages" ng-show="!$first"><a href="#/{{page.id}}" >{{page.title[0]}} <span>{{page.title[1]}}</span></a></li>
+<ul class="nav" snap-close>
+	<li ng-repeat="page in pages" ng-show="!$first" ng-class="{active: isActive(page)}"><a href="#{{page.path}}" >{{page.title[0]}} <span>{{page.title[1]}}</span></a></li>
 </ul>
