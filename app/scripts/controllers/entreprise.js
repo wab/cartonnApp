@@ -2,7 +2,7 @@
 
 cartonnApp
 .controller('EntrepriseCtrl', ['$scope', '$http', function ($scope, $http) {
-	$http.get('contenu.json').success(function(data) {
+	$http.get('contenus/pages.json').success(function(data) {
 			$scope.page = data.entreprise;
 		});
 	$scope.slickConfig = {

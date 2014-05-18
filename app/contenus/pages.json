@@ -3,7 +3,10 @@
 	"id": "accueil",
 	"path": "/",
 	"title": "cartonnApp",
-	"slides": ["images/accueil/accueil-slider.jpg", "images/yeoman.png"]
+	"slides": [
+		"images/accueil/slide-01.png",
+		"images/accueil/accueil-slider.jpg"
+		]
 	},
 "entreprise": {
 	"id": "entreprise",

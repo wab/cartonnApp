@@ -1,11 +1,13 @@
 'use strict';
 
 cartonnApp.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
-	$http.get('contenu.json').success(function(data) {
-		$scope.page = data;
+	$http.get('contenus/pages.json').success(function(data) {
+		$scope.pages = data;
+		$scope.accueil = data.accueil;
 	});
 	$scope.slickConfig = {
-			dots: true
+			dots: false,
+			arrows: true
     };
 
     $scope.slickHandle = {

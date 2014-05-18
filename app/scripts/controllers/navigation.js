@@ -3,7 +3,7 @@
 cartonnApp
 .controller('NavigationCtrl', ['$scope', '$location', '$http',  function ($scope, $location, $http) {
     //recup des contenus
-    $http.get('/contenu.json').success(function(data) {
+    $http.get('contenus/pages.json').success(function(data) {
       $scope.pages = data;
     });
     // classe active
