@@ -1,13 +1,19 @@
 
 /* Space out content a bit */
+html {
+	height: 100%;
+}
 body {
-  padding-top: 20px;
   padding-bottom: 20px;
   overflow: hidden;
   background: #ccc;
+  height: 100vh;
+  max-height: 768px;
 }
 
-.container {position: relative;}
+.container {
+	position: relative;
+}
 
 .snap-content {
   background-color: #e9e9e9;
@@ -18,31 +24,122 @@ body {
 	width: 300px;
 }
 
-.btn {border: none;}
-
-.btn-menu:hover, .btn-menu:focus {background: #0194ca;}
 .btn-accueil {
-	display: block;
-	background: #0194ca;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.33;
-    padding: 20px;
-	border-bottom: 1px solid #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
 }
-.nav > li > a  {
+
+.nav a span {font-weight: bold;}
+
+/*Navigation principale*/
+
+.navigationPrincipale {
+	border-top: 83px solid #0194ca;
+}
+.navigationPrincipale .nav {
+	border-top: 2px solid #fff;
+}
+.navigationPrincipale .nav > li > a  {
 	text-transform: uppercase; 
 	color: #fff;
 	padding: 20px 15px;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {background: #111;}
+.navigationPrincipale .nav > li > a:hover, .navigationPrincipale .nav > li > a:focus {
+	background: #111;
+}
 
-.nav a span {font-weight: bold;}
-.nav .active a {color: #0194ca;}
-.nav li {
+.navigationPrincipale .nav .active a {
+	color: #0194ca;
+}
+
+.navigationPrincipale .nav li {
 	border-bottom: 1px solid #000; 
 	border-left: 4px solid #0194ca;
+}
+
+.btn-menu {
+	position: absolute;
+	z-index: 500;
+	cursor: pointer;
+}
+
+/*header */
+
+.mainheader {
+	background: url(../images/header.jpg) top left no-repeat;
+	border-bottom: 1px solid #fff;
+}
+
+.mainheader h1 {
+	min-height: 174px;
+	margin: 0;
+	padding: 40px 355px 30px 260px;
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #0194ca;
+	text-transform: uppercase;
+}
+
+.mainheader h1 span {
+	font-weight: bold;	
+}
+
+.clients .mainheader h1 {
+	background-image: url(../images/clients/titre.png);
+}
+.entreprise .mainheader h1 {
+	background-image: url(../images/valeurs/titre.png);
+}
+.outil .mainheader h1 {
+	background-image: url(../images/outil/titre.png);
+}
+.realisations .mainheader h1 {
+	background-image: url(../images/valeurs/titre.png);
+}
+.services .mainheader h1 {
+	background-image: url(../images/valeurs/titre.png);
+}
+.valeurs .mainheader h1 {
+	background-image: url(../images/valeurs/titre.png);
+}
+
+/*Slider */
+
+.slick-slider {
+	margin-bottom: 0;
+}
+
+.slick-prev:before,.slick-next:before {
+    content: none;
+}
+
+.slick-prev {
+    left: 10px;
+    background: url(../images/arrow-slider-l.png) center no-repeat;
+}
+
+.slick-next {
+    right: 10px;
+    background: url(../images/arrow-slider-r.png) center no-repeat;
+}
+
+.slick-prev, .slick-next {
+    border: medium none;
+    color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-size: 0;
+    height: 47px;
+    line-height: 0;
+    margin-top: -25px;
+    outline: medium none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 47px;
 }
 
 .slide {
