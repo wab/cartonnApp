@@ -193,6 +193,15 @@ module.exports = function (grunt) {
       }
     },
 
+    less: {
+        development: {
+            files: {
+              //compiling bootstrap.less into bootstrap.css
+              "./app/bower_components/bootstrap/dist/css/bootstrap.css":"./app/styles/less/bootstrap.less",
+            }
+        }
+    },
+
     // The following *-min tasks produce minified files in the dist folder
     cssmin: {
       options: {
@@ -352,6 +361,7 @@ module.exports = function (grunt) {
       'clean:server',
       'bowerInstall',
       'concurrent:server',
+      'less',
       'autoprefixer',
       'connect:livereload',
       'watch'
