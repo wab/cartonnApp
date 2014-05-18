@@ -21,7 +21,9 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
+  <!-- add 'fullscreen' attr for fullscreen api -->
   <body ng-app="cartonnApp" data-snap-ignore="true">
+    
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -29,11 +31,11 @@
     <!-- Add your site or application content here -->
    
     <div snap-drawer>
-        <nav ng-include="'views/navigation.html'" ng-controller="NavigationCtrl"></nav>
+        <nav ng-include="'views/navigation.html'" ng-controller="NavigationCtrl" class="navigationPrincipale"></nav>
     </div>
 
     <div snap-content>
-        <button snap-toggle=""class="btn btn-lg btn-primary btn-menu">Menu</button>
+        <a snap-toggle="" class="btn-menu"><img src="images/menu.jpg" alt="menu" height="83" width="84"></a>
         <div class="container" ng-view=""></div>
     </div>
 
@@ -66,6 +68,7 @@
     <script src="bower_components/angular-slick-carousel/dist/slick.js"></script>
     <script src="bower_components/snapjs/snap.js"></script>
     <script src="bower_components/angular-snap/angular-snap.js"></script>
+    <script src="bower_components/angular-fullscreen/src/angular-fullscreen.js"></script>
     <script src="bower_components/videogular/videogular.js"></script>
     <!-- endbower -->
     <!-- endbuild -->

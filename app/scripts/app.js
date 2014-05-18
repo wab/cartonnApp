@@ -7,7 +7,8 @@ var cartonnApp = angular.module('cartonnApp', [
     'ngRoute',
     'snap',
     'com.2fdevs.videogular',
-    'bardo.directives'
+    'bardo.directives',
+    'FBAngular'
   ]);
 
 cartonnApp.config(['$routeProvider', function ($routeProvider) {
