@@ -1,7 +1,5 @@
 <div class="{{page.id}}">
-	<header class="mainheader">
-		<h1>{{page.title[0]}}<br><span>{{page.title[1]}}</span></h1>
-		<a href="/" class="btn-accueil"><img src="../images/close.jpg" height="174" width="176" alt="retour à l'accueil"></a>
+	<header class="mainheader" ng-include="'views/header.html'">
 	</header>
 	<div>
 		<div slick ng-transclude settings="slickConfig" control="slickHandle">
@@ -14,9 +12,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="nav-slider col-md-{{12 / page.slides.length | number:0}}" ng-repeat="slide in page.slides track by $index | orderBy: 'order'">
-				<a ng-click="slickHandle.slickGoTo($index)" ng-class="{active: islideActive(slide)}" data="{{active}}">{{slide.title[0]}} <span>{{slide.title[1]}}</span></a>
+		<div class="nav-slider">
+			<div class="row">
+				<div class=" col-md-{{12 / page.slides.length | number:0}}" ng-repeat="slide in page.slides track by $index | orderBy: 'order'">
+					<a ng-click="slickHandle.slickGoTo($index)" ng-class="{active: islideActive(slide)}" data="{{active}}">{{slide.title[0]}} <strong>{{slide.title[1]}}</strong>
+						<span class="nbre">{{slide.order + 1}}</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>

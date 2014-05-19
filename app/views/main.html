@@ -10,39 +10,37 @@
 
     <div class="main">
         <div class="row">
-            <h2 class="col-sm-1">Témoignages</h2>
-            <div class="col-sm-6">
-                
-                    <div class="temoignageAccueil">
-                        <div slick ng-transclude settings="slickConfig2" control="slickHandle2">
-                            <div ng-repeat="temoignage in pages.clients.temoignages">
-                                <div class="thumbTemoignage">
-                                    <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive" >
-                                </div>
+            <h2 class="col-sm-1"><img src="../images/accueil/titre-temoignages.png" alt="temoignages" height="270" width="100"></h2>
+            <div class="col-sm-6">                
+                <div class="temoignageAccueil">
+                    <div slick ng-transclude settings="slickConfig2" control="slickHandle2">
+                        <div ng-repeat="temoignage in pages.clients.temoignages">
+                            <div class="thumbTemoignage">
+                                <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive" >
+                            </div>
 
-                                <div class="temoignagesClients">
-                                    <p class="rating">
-                                        {{temoignage.rate}}
-                                    </p>
-                                    <blockquote>
-                                        <strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
-                                        {{temoignage.blockquote[1]}}.
-                                    </blockquote>
-                                    <p>
-                                        <strong>{{temoignage.entreprise[0]}},</strong><br>
-                                        {{temoignage.entreprise[1]}}
-                                    </p>
-                                </div>
+                            <div class="temoignagesClients">
+                                <p class="rating">
+                                    {{temoignage.rate}}
+                                </p>
+                                <blockquote>
+                                    <strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
+                                    {{temoignage.blockquote[1]}}.
+                                </blockquote>
+                                <p>
+                                    <strong>{{temoignage.entreprise[0]}},</strong><br>
+                                    {{temoignage.entreprise[1]}}
+                                </p>
                             </div>
                         </div>
-                        <div class="controls">
-                            <a ng-click="slickHandle2.slickPrev()" class="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                            <a ng-click="slickHandle2.slickNext()" class="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                        </div>
                     </div>
-              
+                    <div class="controls">
+                        <a ng-click="slickHandle2.slickPrev()" class="prev">&nbsp;</span></a>
+                        <a ng-click="slickHandle2.slickNext()" class="next">&nbsp;</span></a>
+                    </div>
+                </div>            
             </div>
-            <h2 class="col-sm-1">Vidéos</h2>
+            <h2 class="col-sm-1"><img src="../images/accueil/titre-videos.png" alt="vidéos" height="270" width="100"></h2>
             <div class="col-sm-4">
                 <video src='videos/v1.mp4' width="408">
                 </video>

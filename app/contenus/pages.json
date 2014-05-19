@@ -72,14 +72,14 @@
 	"temoignages": [
 		{
 			"id": "01",
-			"thumb": "../images/yeoman.png",
+			"thumb": "../images/clients/videos/cordon-electronics.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["cordon electronics","dinan"],
 			"rate":"★★★☆☆"
 		},
 		{
 			"id": "02",
-			"thumb": "../images/accueil/accueil-slider.jpg",
+			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["entreperise","Dinard"],
 			"rate":"★★★★☆"
@@ -89,13 +89,18 @@
 	"videos": [
 		{
 			"title": "titre 1",
-			"thumb": "images/accueil/accueil-slider.jpg",
+			"thumb": "../images/clients/videos/cordon-electronics.jpg",
 			"file":"../videos/v1.mp4"
 		},
 		{
 			"title": "titre 2",
-			"thumb": "images/accueil/accueil-slider.jpg",
-			"file":"../videos/v2.mp4"
+			"thumb": "../images/clients/videos/distillerie-combier.jpg",
+			"file":"../videos/v1.mp4"
+		},
+		{
+			"title": "titre 2",
+			"thumb": "../images/clients/videos/mag-m.jpg",
+			"file":"../videos/v1.mp4"
 		}
 	]
 },
