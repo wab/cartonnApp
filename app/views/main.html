@@ -10,22 +10,43 @@
 
     <div class="main">
         <div class="row">
-            <div class="col-md-6">
-                <h2>Témoignages</h2>
+            <h2 class="col-sm-1">Témoignages</h2>
+            <div class="col-sm-6">
+                
+                    <div class="temoignageAccueil">
+                        <div slick ng-transclude settings="slickConfig2" control="slickHandle2">
+                            <div ng-repeat="temoignage in pages.clients.temoignages">
+                                <div class="thumbTemoignage">
+                                    <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive" >
+                                </div>
+
+                                <div class="temoignagesClients">
+                                    <p class="rating">
+                                        {{temoignage.rate}}
+                                    </p>
+                                    <blockquote>
+                                        <strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
+                                        {{temoignage.blockquote[1]}}.
+                                    </blockquote>
+                                    <p>
+                                        <strong>{{temoignage.entreprise[0]}},</strong><br>
+                                        {{temoignage.entreprise[1]}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <a ng-click="slickHandle2.slickPrev()" class="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                            <a ng-click="slickHandle2.slickNext()" class="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                    </div>
+              
             </div>
-            <div class="col-md-6">
-                <h2>Vidéos</h2>
-                <div videogular vgAutoplay='true' vgWidth='500'>
-                    <video class='videoPlayer'>
-                        <source src='videos/v1.mp4'>
-                    </video>
-                </div>
+            <h2 class="col-sm-1">Vidéos</h2>
+            <div class="col-sm-4">
+                <video src='videos/v1.mp4' width="408">
+                </video>
             </div>
         </div>
     </div>
-
-    <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-    </div>
 </div>
-<div>{{page}}</div>

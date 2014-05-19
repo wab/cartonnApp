@@ -9,6 +9,7 @@ body {
   background: #ccc;
   height: 100vh;
   max-height: 768px;
+  text-transform: uppercase;
 }
 
 .container {
@@ -18,6 +19,10 @@ body {
 .main {
 	height: 594px;
 	position: relative;
+}
+
+.accueil .main {
+	height: 300px;
 }
 
 .height {
@@ -180,53 +185,34 @@ body {
 	background: #555;
 }
 
-/*page clients*/
+/* slider Témoignages*/
 
-.img-nav {
-	cursor: pointer;
-}
-
-.clients {
-	text-transform: uppercase;
+.temoignagesClients {
+	position: relative;
 }
 
 .temoignagesClients .slick-slider {
-	position: relative;
-	padding: 20px;
-	border-bottom: 100px solid #0194ca;
+	padding: 25px;
+	border-bottom: 50px solid #0194ca;
 }
 
-.clients .temoignagesClients .slick-slider {
-	height: 594px;
-	border-top: 100px solid #0194ca;
-}
-
-.temoignagesClients h2 {
-	position: absolute;
-	top: 20px;
-	left: 8%;
-	color: #fff;
-	z-index: 10;
-}
-
-.temoignagesClients  .controls a {
+.temoignagesClients .controls a {
 	position: absolute;
 	bottom: 0;
 	color: #fff;
 	cursor: pointer;
 }
-.temoignagesClients  .controls .prev {
+.temoignagesClients .controls .prev {
 	left: 0;
 	
 }
-.temoignagesClients  .controls .next {
+.temoignagesClients .controls .next {
 	right: 0;
 }
-.slick-dots {
-	bottom: -70px;
+.temoignagesClients .slick-dots {
+	bottom: -45px;
 	left: 0;
 }
-
 
 .temoignagesClients .slick-dots li.slick-active button:before {
     opacity: 1;
@@ -235,8 +221,62 @@ body {
     color: #fff;
 }
 
-/*rating*/
-.rating {
+.temoignagesClients .rating {
 	color: #ffcc00;
-	font-size: 2em;
+	font-size: 1.4em;
 }
+
+/*page accueil*/
+
+.accueil .main h2 {
+	background: #333;
+}
+
+.accueil .thumbTemoignage {
+	width: 300px;
+	float: left;
+}
+
+.accueil .temoignagesClients {
+	height: 300px;
+	width: auto;
+	margin-left: 300px;
+	padding: 20px;
+	border-bottom: 50px solid #0194ca;
+
+}
+
+.temoignageAccueil .controls a {
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	cursor: pointer;
+}
+.temoignageAccueil .controls .prev {
+	left: 300px;
+	
+}
+.temoignageAccueil .controls .next {
+	right: 0;
+}
+.temoignageAccueil .slick-dots {
+	left: 150px;
+	bottom: 15px;
+}
+
+/*page clients*/
+
+.clients .temoignagesClients h2 {
+	position: absolute;
+	top: 20px;
+	left: 8%;
+	color: #fff;
+	z-index: 10;
+}
+
+.clients .temoignagesClients .slick-slider {
+	height: 594px;
+	border-top: 100px solid #0194ca;
+}
+
+

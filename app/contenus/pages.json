@@ -72,14 +72,16 @@
 	"temoignages": [
 		{
 			"id": "01",
+			"thumb": "../images/yeoman.png",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["cordon electronics","dinan"],
 			"rate":"★★★☆☆"
 		},
 		{
 			"id": "02",
+			"thumb": "../images/accueil/accueil-slider.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
-			"entreprise": ["cordon electronics","dinan"],
+			"entreprise": ["entreperise","Dinard"],
 			"rate":"★★★★☆"
 		}
 
