@@ -5,6 +5,7 @@ var cartonnApp = angular.module('cartonnApp', [
     'ngResource',
     'ngSanitize',
     'ngRoute',
+    'ngTouch',
     'snap',
     'com.2fdevs.videogular',
     'bardo.directives',
