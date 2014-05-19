@@ -68,7 +68,19 @@
 "clients": {
 	"id": "clients",
 	"title": ["nos", "clients"],
-	"path": "/clients"
+	"path": "/clients",
+	"videos": [
+		{
+			"title": "titre 1",
+			"thumb": "images/accueil/accueil-slider.jpg",
+			"file":"../videos/v1.mp4"
+		},
+		{
+			"title": "titre 2",
+			"thumb": "images/accueil/accueil-slider.jpg",
+			"file":"../videos/v2.mp4"
+		}
+	]
 },
 "realisations": {
 	"id": "realisations",
