@@ -69,6 +69,21 @@
 	"id": "clients",
 	"title": ["nos", "clients"],
 	"path": "/clients",
+	"temoignages": [
+		{
+			"id": "01",
+			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"entreprise": ["cordon electronics","dinan"],
+			"rate":"★★★☆☆"
+		},
+		{
+			"id": "02",
+			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"entreprise": ["cordon electronics","dinan"],
+			"rate":"★★★★☆"
+		}
+
+	],
 	"videos": [
 		{
 			"title": "titre 1",

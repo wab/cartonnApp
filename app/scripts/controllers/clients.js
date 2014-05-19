@@ -4,12 +4,14 @@ cartonnApp
 .controller('ClientsCtrl', ['$scope', '$http', function ($scope, $http) {
 	$http.get('contenus/pages.json').success(function(data) {
 			$scope.page = data.clients;
+			$scope.temoignages = data.clients.temoignages;
 			$scope.videos = data.clients.videos;
 			$scope.mainVideoFile = data.clients.videos[1].file;
 		});
 	$scope.slickConfig = {
 
-		arrows: false
+		arrows: false,
+		dots: true
 
 	};
 

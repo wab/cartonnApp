@@ -4,10 +4,28 @@
 	<div class="main">
 		<div class="row">
 			<div class="col-sm-4">
-				<h2>Témoignages</h2>
-				<div class="">
-					<div class="rating">
-						<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+				<div class="temoignagesClients height">
+					<h2>Ce que nos clients disent de nous</h2>
+					<div slick ng-transclude settings="slickConfig" control="slickHandle">
+						<div ng-repeat="temoignage in temoignages">
+							<div class="temoignage">
+								<p class="rating">
+									{{temoignage.rate}}
+								</p>
+								<blockquote>
+									<strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
+									{{temoignage.blockquote[1]}}.
+								</blockquote>
+								<p>
+									<strong>{{temoignage.entreprise[0]}},</strong><br>
+									{{temoignage.entreprise[1]}}
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="controls">
+						<a ng-click="slickHandle.slickPrev()" class="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+						<a ng-click="slickHandle.slickNext()" class="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 					</div>
 				</div>
 			</div>
@@ -18,10 +36,7 @@
 						</video>
 					</div>
 					<div class="col-sm-4" ng-repeat="video in videos">
-
-						<img src="{{video.thumb}}" class="img-responsive" ng-click="loadvideo(video.file)" />
-						<h3>{{video.title}}</h3>
-
+						<img src="{{video.thumb}}" class="img-nav img-responsive" ng-click="loadvideo(video.file)" />
 					</div>
 				<div>
 			</div>
