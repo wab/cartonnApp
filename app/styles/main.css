@@ -184,7 +184,7 @@ a:hover, a:active, a:focus {
 	position: relative;
 	display: block;
 	padding: 2em 4em;
-	background: url(../images/bg-nav-slider.png);
+	background: #999 url(../images/bg-nav-slider.png);
 	cursor: pointer;
 	color: #fff;
 	text-decoration: none;

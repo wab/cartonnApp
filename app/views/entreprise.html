@@ -4,7 +4,7 @@
 	<div>
 		<div slick ng-transclude settings="slickConfig" control="slickHandle">
 			<div ng-repeat="slide in page.slides track by $index | orderBy: 'order'" data-id="{{slide.id}}">
-				<div class="slide row" style="background-image: url({{slide.image}});">
+				<div class="slide row" ng-click="islideActive()" style="background-image: url({{slide.image}});">
 					<div class="col-md-6">
 						<h2>{{slide.title[0]}}</h2>
 						<p>{{slide.texte[0]}}</p>
