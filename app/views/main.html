@@ -24,14 +24,14 @@
                 <img src="../images/accueil/titre-temoignages.png" alt="temoignages" height="270" width="100">
             </h2>
             <div class="col-sm-6">                
-                <div class="temoignageAccueil">
+                <div class="temoignages">
                     <div slick ng-transclude settings="slickConfigtemoignage" control="slickHandle">
                         <div ng-repeat="temoignage in pages.clients.temoignages">
-                            <div class="thumbTemoignage">
+                            <div class="thumb">
                                 <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive" >
                             </div>
 
-                            <div class="temoignagesClients">
+                            <div class="wrapper">
                                 <p class="rating">
                                     {{temoignage.rate}}
                                 </p>
