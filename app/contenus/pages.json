@@ -58,7 +58,17 @@
 "outil": {
 	"id": "outil",
 	"title": ["un outil industriel", "performant"],
-	"path": "/outil-industriel-performant"
+	"path": "/outil-industriel-performant",
+	"soustitre": ["passage du", "stade artisanal au stade industriel"],
+	"liste1": [
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+		"Donec tempus tempus tellus"
+		],
+	"liste2": [
+		"Donec tempus tempus tellus, ac lacinia turpis mattis ac. Fusce ac sodales magna",
+		"Donec a congue leo"
+		],
+	"video": "../videos/v1.mp4"
 	},
 "services": {
 	"id": "services",

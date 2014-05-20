@@ -38,6 +38,23 @@ a:hover, a:active, a:focus {
 	font-weight: bold;
 }
 
+.section {
+	border-top: 100px solid #0194ca;
+	padding-top: 2px;
+}
+
+.section-title {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	color: #fff;
+}
+
+.contenu {
+	margin-top: 1em;
+	text-transform: none;
+}
+
 .snap-content {
   background-color: #e9e9e9;
 }
