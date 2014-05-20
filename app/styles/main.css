@@ -200,7 +200,8 @@ a:hover, a:active, a:focus {
 .nav-slider a {
 	position: relative;
 	display: block;
-	padding: 2em 4em;
+	height: 100px;
+	padding: 2em 1em;
 	background: #999 url(../images/bg-nav-slider.png);
 	cursor: pointer;
 	color: #fff;
@@ -353,3 +354,6 @@ a:hover, a:active, a:focus {
 }
 
 
+/* page valeurs */
+
+.valeurs .col-md-2 {width: 20%;}
