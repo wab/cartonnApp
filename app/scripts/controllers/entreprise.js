@@ -1,14 +1,14 @@
 'use strict';
 
 cartonnApp
-.controller('EntrepriseCtrl', ['$scope', '$http', function ($scope, $http) {
+.controller('EntrepriseCtrl', ['$scope', '$http', '$routeParams',  function ($scope, $http, $routeParams) {
 	$http.get('contenus/pages.json').success(function(data) {
 			$scope.page = data.entreprise;
+			$scope.ancre = $routeParams.ancre;
 		});
+	
 	$scope.slickConfig = {
-
 		arrows: false
-
 	};
 
 	$scope.slickHandle = {

@@ -30,6 +30,10 @@ cartonnApp.config(['$routeProvider', function ($routeProvider) {
       templateUrl: 'views/entreprise.html',
       controller: 'EntrepriseCtrl'
     })
+    .when('/entreprise/:ancre', {
+      templateUrl: 'views/entreprise.html',
+      controller: 'EntrepriseCtrl'
+    })
     .when('/valeurs', {
       templateUrl: 'views/valeurs.html',
       controller: 'ValeursCtrl'
