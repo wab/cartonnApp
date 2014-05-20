@@ -13,13 +13,10 @@ cartonnApp.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.slickHandle = {
 
     };
-    $scope.slickConfig2 = {
+
+    $scope.slickConfigtemoignage = {
 			dots: true,
 			arrows: false,
-			fade: true,
-    };
-
-    $scope.slickHandle = {
-
+			fade: true
     };
 }]);

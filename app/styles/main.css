@@ -265,10 +265,10 @@ a:hover, a:active, a:focus {
 	left: 0;
 }
 
-.temoignagesClients .slick-dots li.slick-active button:before {
+.slick-dots li.slick-active button:before {
     opacity: 1;
 }
-.temoignagesClients .slick-dots li button:before {
+.slick-dots li button:before {
     color: #fff;
 }
 
@@ -313,6 +313,13 @@ a:hover, a:active, a:focus {
 	background-position: -50px -50px;
 }
 
+.accueil .accesDirect a {
+	display: block;
+	width: 33%;
+	height: 500px;
+	float: left;
+}
+
 .accueil .temoignageAccueil .controls .prev {
 	left: 276px;
 	
@@ -321,8 +328,9 @@ a:hover, a:active, a:focus {
 	right: 0;
 }
 .accueil .temoignageAccueil .slick-dots {
-	left: 150px;
-	bottom: 15px;
+	padding-left: 276px;
+	left: 0;
+	bottom: 10px;
 }
 
 /*page clients*/
