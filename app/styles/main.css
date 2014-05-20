@@ -353,7 +353,10 @@ a:hover, a:active, a:focus {
 	cursor: pointer;
 }
 
+/*page réalisations*/
+
+.category-realisations .col-sm-2 {width: 20%;}
 
 /* page valeurs */
 
-.valeurs .col-md-2 {width: 20%;}
+.valeurs .col-sm-2 {width: 20%;}

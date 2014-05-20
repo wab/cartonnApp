@@ -22,7 +22,7 @@ cartonnApp.config(['$routeProvider', function ($routeProvider) {
       templateUrl: 'views/realisations.html',
       controller: 'RealisationsCtrl'
     })
-    .when('/realisations/:itemId', {
+    .when('/realisations/item/:itemId', {
       templateUrl: 'views/realisationitem.html',
       controller: 'RealisationitemCtrl'
     })
@@ -49,6 +49,10 @@ cartonnApp.config(['$routeProvider', function ($routeProvider) {
     .when('/clients', {
       templateUrl: 'views/clients.html',
       controller: 'ClientsCtrl'
+    })
+    .when('/realisations/category/:categorId', {
+      templateUrl: 'views/realisation-category.html',
+      controller: 'RealisationCategoryCtrl'
     })
     .otherwise({
       redirectTo: '/'

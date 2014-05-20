@@ -14,7 +14,7 @@
 			</div>
 			<div class="realisations" ng-repeat="realisation in realisations | filter:query">
 				<div class="col-md-3">
-					<a class="thumbnail category" href="#/realisations/{{realisation.id}}">
+					<a class="thumbnail category" href="#/realisations/category/{{realisation.id}}">
 						<h2>{{realisation.name}}</h2>
 						<img ng-src="{{realisation.thumb}}" class="img-responsive">
 					</a>

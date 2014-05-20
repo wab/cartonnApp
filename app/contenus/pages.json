@@ -8,6 +8,45 @@
 		"images/accueil/slide-02.png"
 		]
 	},
+"clients": {
+	"id": "clients",
+	"title": ["nos", "clients"],
+	"path": "/clients",
+	"temoignages": [
+		{
+			"id": "01",
+			"thumb": "../images/clients/videos/cordon-electronics.jpg",
+			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"entreprise": ["cordon electronics","dinan"],
+			"rate":"★★★☆☆"
+		},
+		{
+			"id": "02",
+			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
+			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"entreprise": ["entreperise","Dinard"],
+			"rate":"★★★★☆"
+		}
+
+	],
+	"videos": [
+		{
+			"title": "titre 1",
+			"thumb": "../images/clients/videos/cordon-electronics.jpg",
+			"file":"../videos/v1.mp4"
+		},
+		{
+			"title": "titre 2",
+			"thumb": "../images/clients/videos/distillerie-combier.jpg",
+			"file":"../videos/v1.mp4"
+		},
+		{
+			"title": "titre 2",
+			"thumb": "../images/clients/videos/mag-m.jpg",
+			"file":"../videos/v1.mp4"
+		}
+	]
+},
 "entreprise": {
 	"id": "entreprise",
 	"path": "/entreprise",
@@ -47,6 +86,76 @@
 				]
 		}
 
+		]
+	},
+"outil": {
+	"id": "outil",
+	"title": ["un outil industriel", "performant"],
+	"path": "/outil-industriel-performant",
+	"soustitre": ["passage du", "stade artisanal au stade industriel"],
+	"liste1": [
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
+		"Donec tempus tempus tellus"
+		],
+	"liste2": [
+		"Donec tempus tempus tellus, ac lacinia turpis mattis ac. Fusce ac sodales magna",
+		"Donec a congue leo"
+		],
+	"video": "../videos/v1.mp4"
+	},
+"realisations": {
+	"id": "realisations",
+	"title": ["nos", "réalisations"],
+	"path": "/realisations"
+	},
+"services": {
+	"id": "services",
+	"title": ["pourquoi", "nous choisir ?"],
+	"path": "/pourquoi-nous-choisir",
+	"slides": [
+		{
+			"id": "services-1",
+			"order" : 0,
+			"title" : ["Bureau d'étude", "integré"],
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		},
+		{
+			"id": "services-2",
+			"order" : 1,
+			"title" : ["", "conseil"],
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		},
+		{
+			"id": "services-3",
+			"order" : 2,
+			"title" : ["Réactivité", "et proximité "],
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		},{
+			"id": "services-4",
+			"order" : 3,
+			"title" : ["Respect", "des engagements"],
+			"image" : "images/accueil/accueil-slider.jpg",
+			"subtitle" : "présentation & historique",
+			"texte" : [
+				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
+				]
+		} 
 		]
 	},
 "valeurs": {
@@ -110,115 +219,5 @@
 				]
 		} 
 		]
-
-	},
-"outil": {
-	"id": "outil",
-	"title": ["un outil industriel", "performant"],
-	"path": "/outil-industriel-performant",
-	"soustitre": ["passage du", "stade artisanal au stade industriel"],
-	"liste1": [
-		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
-		"Donec tempus tempus tellus"
-		],
-	"liste2": [
-		"Donec tempus tempus tellus, ac lacinia turpis mattis ac. Fusce ac sodales magna",
-		"Donec a congue leo"
-		],
-	"video": "../videos/v1.mp4"
-	},
-"services": {
-	"id": "services",
-	"title": ["pourquoi", "nous choisir ?"],
-	"path": "/pourquoi-nous-choisir",
-	"slides": [
-		{
-			"id": "services-1",
-			"order" : 0,
-			"title" : ["Bureau d'étude", "integré"],
-			"image" : "images/accueil/accueil-slider.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
-		},
-		{
-			"id": "services-2",
-			"order" : 1,
-			"title" : ["", "conseil"],
-			"image" : "images/accueil/accueil-slider.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
-		},
-		{
-			"id": "services-3",
-			"order" : 2,
-			"title" : ["Réactivité", "et proximité "],
-			"image" : "images/accueil/accueil-slider.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
-		},{
-			"id": "services-4",
-			"order" : 3,
-			"title" : ["Respect", "des engagements"],
-			"image" : "images/accueil/accueil-slider.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
-		} 
-		]
-	},
-"clients": {
-	"id": "clients",
-	"title": ["nos", "clients"],
-	"path": "/clients",
-	"temoignages": [
-		{
-			"id": "01",
-			"thumb": "../images/clients/videos/cordon-electronics.jpg",
-			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
-			"entreprise": ["cordon electronics","dinan"],
-			"rate":"★★★☆☆"
-		},
-		{
-			"id": "02",
-			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
-			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
-			"entreprise": ["entreperise","Dinard"],
-			"rate":"★★★★☆"
-		}
-
-	],
-	"videos": [
-		{
-			"title": "titre 1",
-			"thumb": "../images/clients/videos/cordon-electronics.jpg",
-			"file":"../videos/v1.mp4"
-		},
-		{
-			"title": "titre 2",
-			"thumb": "../images/clients/videos/distillerie-combier.jpg",
-			"file":"../videos/v1.mp4"
-		},
-		{
-			"title": "titre 2",
-			"thumb": "../images/clients/videos/mag-m.jpg",
-			"file":"../videos/v1.mp4"
-		}
-	]
-},
-"realisations": {
-	"id": "realisations",
-	"title": ["nos", "réalisations"],
-	"path": "/realisations"
-}
+	}
 }
