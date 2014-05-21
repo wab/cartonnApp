@@ -1,0 +1,31 @@
+<div class="realisations category-{{category.id}}" ng-repeat="category in realisations | filter:{id:catid}">
+	<div ng-repeat="item in category.items | filter:{id:itemid}">
+		<header class="mainheader" role="banner">
+			<h1>
+				<small class="text-primary">Nos réalisations</small><br>
+				<strong>{{category.order + 1}} - {{category.name}}</strong>
+			</h1>
+			<a href="/" class="btn-accueil"><img src="../images/close.jpg" height="174" width="176" alt="retour à l'accueil"></a>
+		</header>
+		<div class="main" role="main">
+			<div class="row">
+				<div class="col-sm-7">
+					<div slick ng-transclude settings="slickConfig" control="slickHandle">
+						<div ng-repeat="image in item.images">
+							<img src="{{image}}" alt="" class="img-reponsive" />
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<section class="section">
+						<h2 class="section-title">{{item.name}}</h2>
+						<div class="wrapper contenu">
+							{{item.description}}
+							{{item.images}}
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

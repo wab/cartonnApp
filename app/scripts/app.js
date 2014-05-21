@@ -47,7 +47,7 @@ cartonnApp.config(['$routeProvider', function ($routeProvider) {
       controller: 'RealisationCategoryCtrl'
     })
     .when('/realisations/:categorId/:itemId', {
-      templateUrl: 'views/realisationitem.html',
+      templateUrl: 'views/realisation-item.html',
       controller: 'RealisationitemCtrl'
     })
     .otherwise({

@@ -1,4 +1,4 @@
-<div class="category-realisations" ng-repeat="category in realisations | filter:{id:catid}">
+<div class="realisations category-{{category.id}}" ng-repeat="category in realisations | filter:{id:catid}">
 	<header class="mainheader" role="banner">
 		<h1>
 			<small class="text-primary">Nos réalisations</small><br>
