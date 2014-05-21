@@ -14,14 +14,14 @@
 			</div>
 			<div class="realisations" ng-repeat="realisation in realisations | filter:query">
 				<div class="col-md-3">
-					<a class="thumbnail category" href="#/realisations/category/{{realisation.id}}">
+					<a class="thumbnail category" href="#/realisations/{{realisation.id}}">
 						<h2>{{realisation.name}}</h2>
 						<img ng-src="{{realisation.thumb}}" class="img-responsive">
 					</a>
 				</div>
 				
 				<div ng-repeat="item in realisation.items" class="col-md-2">
-					<a class="thumbnail realisation" href="#/realisations/{{item.id}}">
+					<a class="thumbnail realisation" href="#/realisations/{{realisation.id}}/{{item.id}}">
 						<h3>{{item.name}}</h3>
 						<img ng-src="{{item.thumb}}" class="img-responsive">
 					</a>
