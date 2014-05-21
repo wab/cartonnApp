@@ -7,7 +7,7 @@
 				<section class="temoignages section">
 					<h2 class="section-title">Ce que nos clients disent de nous</h2>
 					<div slick ng-transclude settings="slickConfig" control="slickHandle">
-						<div ng-repeat="temoignage in temoignages">
+						<div ng-repeat="temoignage in page.temoignages">
 							<div class="wrapper">
 								<p class="rating">
 									{{temoignage.rate}}
@@ -35,7 +35,7 @@
 						<video controls width="100%" preload="auto" src="{{mainVideoFile}}" type="video/mp4">
 						</video>
 					</div>
-					<div class="col-sm-{{12 / videos.length | number:0}}" ng-repeat="video in videos">
+					<div class="col-sm-{{12 / page.videos.length | number:0}}" ng-repeat="video in page.videos">
 						<img src="{{video.thumb}}" class="img-nav img-responsive" ng-click="loadvideo(video.file)" />
 					</div>
 				</div>

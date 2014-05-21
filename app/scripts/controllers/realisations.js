@@ -1,13 +1,14 @@
 'use strict';
 
 cartonnApp
-.controller('RealisationsCtrl', ['$scope', '$http', function ($scope, $http) {
-	$http.get('contenus/pages.json').success(function(data) {
-			$scope.page = data.realisations;
-		});
-	$http.get('contenus/realisations.json').success(function(data) {
-			$scope.realisations = data;
-		});
+.controller('RealisationsCtrl', ['$scope', 'Pages', 
+	function ($scope, Pages) {
+	
+	Pages.getData(function(data) {
+		console.log('data loaded');
+		$scope.page = data.realisations;
+	});
+
 	$scope.slickConfig = {
 
 		arrows: false

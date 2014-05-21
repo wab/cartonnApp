@@ -5,7 +5,8 @@ cartonnApp
 
 	$http.get('contenus/realisations.json').success(function(data) {
 			$scope.realisations = data;
-	
+			$scope.category = $routeParams.categorId;
+				
 		});
 
 

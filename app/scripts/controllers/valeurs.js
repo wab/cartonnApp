@@ -1,10 +1,12 @@
 'use strict';
 
-cartonnApp
-.controller('ValeursCtrl', ['$scope', '$http', function ($scope, $http) {
-	$http.get('contenus/pages.json').success(function(data) {
-			$scope.page = data.valeurs;
-		});
+cartonnApp.controller('ValeursCtrl', ['$scope', 'Pages', function ($scope, Pages) {
+	
+	Pages.getData(function(data) {
+		console.log('data loaded');
+		$scope.page = data.valeurs;
+	});
+
 	$scope.slickConfig = {
 
 		arrows: false

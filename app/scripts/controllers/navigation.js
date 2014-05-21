@@ -1,11 +1,10 @@
 'use strict';
 
-cartonnApp
-.controller('NavigationCtrl', ['$scope', '$location', '$http',  function ($scope, $location, $http) {
-    //recup des contenus
-    $http.get('contenus/pages.json').success(function(data) {
-      $scope.pages = data;
-    });
+cartonnApp.controller('NavigationCtrl', ['$scope', '$location', 'Pages',  function ($scope, $location, Pages) {
+    Pages.getData(function(data) {
+    console.log('data loaded');
+    $scope.pages = data;
+  });
     // classe active
     $scope.isActive = function(page) {
       if (page.path === $location.path()) {

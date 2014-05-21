@@ -1,10 +1,10 @@
 'use strict';
 
-cartonnApp
-.controller('EntrepriseCtrl', ['$scope', '$http', '$routeParams',  function ($scope, $http, $routeParams) {
-	$http.get('contenus/pages.json').success(function(data) {
+cartonnApp.controller('EntrepriseCtrl', ['$scope', 'Pages' , 
+	function ($scope, Pages) {
+		Pages.getData(function(data) {
+			console.log('data loaded');
 			$scope.page = data.entreprise;
-			$scope.ancre = $routeParams.ancre;
 		});
 	
 	$scope.slickConfig = {

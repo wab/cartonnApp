@@ -1,13 +1,12 @@
 'use strict';
 
-cartonnApp
-.controller('ClientsCtrl', ['$scope', '$http', function ($scope, $http) {
-	$http.get('contenus/pages.json').success(function(data) {
+cartonnApp.controller('ClientsCtrl', ['$scope', 'Pages', 
+	function ($scope, Pages) {
+		Pages.getData(function(data) {
+			console.log('data loaded');
 			$scope.page = data.clients;
-			$scope.temoignages = data.clients.temoignages;
-			$scope.videos = data.clients.videos;
-			$scope.mainVideoFile = data.clients.videos[1].file;
 		});
+
 	$scope.slickConfig = {
 
 		arrows: false,
