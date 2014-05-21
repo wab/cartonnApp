@@ -2,7 +2,7 @@
 
 cartonnApp.controller('NavigationCtrl', ['$scope', '$location', 'Pages',  function ($scope, $location, Pages) {
     Pages.getData(function(data) {
-    console.log('data loaded');
+    console.log('data navigation loaded');
     $scope.pages = data;
   });
     // classe active
