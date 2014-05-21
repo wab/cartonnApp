@@ -1,26 +1,22 @@
 <div class="{{page.id}}">
 	<header class="mainheader" ng-include="'views/header.html'">
-	</header>
-	<div class="">
-		<div class="row">
-			<div class="col-md-12">
-				<p>This is the realisations view.</p>
 
-				<p>filtre :</p>
-				<select ng-model="query" ng-options="value.id as value.name for value in realisations">
-					<option value="">toutes les réalisations</option>
-				 </select>
-				 <hr>
-			</div>
-			<div class="realisations" ng-repeat="realisation in realisations | filter:query">
-				<div class="col-md-3">
+	</header>
+	<div class="categoryFilters">
+		<select ng-model="query" ng-options="value.id as value.name for value in realisations">
+			<option value="">toutes les réalisations</option>
+		</select>
+	</div>
+	<div class="main" role="main">			
+			<div ng-repeat="realisation in realisations | filter:query">
+				<div class="category">
 					<a class="thumbnail category" href="#/realisations/{{realisation.id}}">
 						<h2>{{realisation.name}}</h2>
 						<img ng-src="{{realisation.thumb}}" class="img-responsive">
 					</a>
 				</div>
 				
-				<div ng-repeat="item in realisation.items" class="col-md-2">
+				<div ng-repeat="item in realisation.items" class="item">
 					<a class="thumbnail realisation" href="#/realisations/{{realisation.id}}/{{item.id}}">
 						<h3>{{item.name}}</h3>
 						<img ng-src="{{item.thumb}}" class="img-responsive">
