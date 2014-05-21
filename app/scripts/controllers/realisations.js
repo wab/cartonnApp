@@ -1,7 +1,6 @@
 'use strict';
 
-cartonnApp
-.controller('RealisationsCtrl', ['$scope', 'Pages', 'Realisations', 
+cartonnApp.controller('RealisationsCtrl', ['$scope', 'Pages', 'Realisations', 
 	function ($scope, Pages, Realisations) {
 	
 	Pages.getData(function(data) {

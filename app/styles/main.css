@@ -391,7 +391,7 @@ small {
 }
 
 .realisations .category, .realisations .item {
-		display: inline-block;
+		float: left;
 }
 
 .realisations .category {
