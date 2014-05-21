@@ -1,31 +1,30 @@
-<div class="category-{{page.id}}">
+<div class="category-realisations" ng-repeat="category in realisations | filter:{id:catid}">
 	<header class="mainheader" role="banner">
 		<h1>
 			<small class="text-primary">Nos réalisations</small><br>
-			<strong>{{realisations[category].order + 1}} - {{realisations[category].name}}</strong>
+			<strong>{{category.order + 1}} - {{category.name}}</strong>
 		</h1>
 		<a href="/" class="btn-accueil"><img src="../images/close.jpg" height="174" width="176" alt="retour à l'accueil"></a>
 	</header>
 	<div class="main" role="main">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="contenu">{{page}}</p>
-					<p class="contenu">{{category}}</p>
+					<p class="contenu">{{category.description}}</p>
+					<p>{{url}}</p>
 				</div>
 				<div class="col-md-6">
-					<p class="contenu">{{realisations}}</p>
+					<img src="{{category.thumb}}" alt="" class="img-reponsive" />
 				</div>
 			</div>
 		<div class="nav-slider">
 			<div class="row">
 				<div class=" col-sm-{{12 / realisations.length | number:0}}" ng-repeat="category in realisations track by $index | orderBy: 'order'">
-					<a ng-class="{active: islideActive(slide)}" href="#/realisations/category/{{category.id}}">
+					<a ng-class="{active: isActiveCategory(category)}" ng-click="clickCategory(category)">
 						<strong>{{category.name}}</strong>
 						<span class="nbre">{{category.order + 1}}</span>
 					</a>
 				</div>
 			</div>
 		</div>
-		<p>{{ancre}}</p>
 	</div>
 </div>
