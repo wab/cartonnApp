@@ -41,11 +41,8 @@ html {
 	
 }
 body {
-  padding-bottom: 20px;
-  overflow: hidden;
-  background: #ccc;
-  height: 100vh;
-  max-height: 768px;
+  background: #eee;
+  max-height: 720px;
   font-family: 'lato', Helvetica, arial, sans-serif;
   text-transform: uppercase;
 }
@@ -66,19 +63,23 @@ small {
 }
 
 .main {
-	height: 594px;
+	height: 564px;
 	position: relative;
 	background: url(../images/texture.jpg);
 }
 
+.main > div {
+	height: 100%;
+}
+
 .accueil .main {
-	height: 270px;
+	height: 243px;
 }
 
 .section {
 	border-top: 100px solid #0194ca;
 	padding-top: 2px;
-	height: 594px;
+	height: 100%;
 }
 
 .section-title {
@@ -119,7 +120,7 @@ small {
 /*Navigation principale*/
 
 .navigationPrincipale {
-	border-top: 83px solid #0194ca;
+	border-top: 75px solid #0194ca;
 }
 .navigationPrincipale .nav {
 	border-top: 2px solid #fff;
@@ -157,7 +158,7 @@ small {
 }
 
 .mainheader h1 {
-	min-height: 174px;
+	min-height: 155px;
 	margin: 0;
 	padding: 40px 355px 30px 260px;
 	background-position: top left;
@@ -171,28 +172,29 @@ small {
 }
 
 .clients .mainheader h1 {
-	background-image: url(../images/clients/titre.png);
+	background-image: url(../images/titre-clients.png);
 }
 .entreprise .mainheader h1 {
-	background-image: url(../images/valeurs/titre.png);
+	background-image: url(../images/titre-valeurs.png);
 }
 .outil .mainheader h1 {
-	background-image: url(../images/outil/titre.png);
+	background-image: url(../images/titre-outil.png);
 }
 .realisations .mainheader h1 {
-	background-image: url(../images/valeurs/titre.png);
+	background-image: url(../images/titre-realisations.png);
 }
 .services .mainheader h1 {
-	background-image: url(../images/valeurs/titre.png);
+	background-image: url(../images/titre-valeurs.png);
 }
 .valeurs .mainheader h1 {
-	background-image: url(../images/valeurs/titre.png);
+	background-image: url(../images/titre-valeurs.png);
 }
 
 /*Slider */
 
 .slick-slider {
 	margin-bottom: 0;
+	max-height: 475px;
 }
 
 .slick-prev:before,.slick-next:before {
@@ -229,7 +231,7 @@ small {
 
 .slide {
 	padding: 0px;
-	min-height: 500px;
+	min-height: 475px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #fff;
@@ -278,9 +280,14 @@ small {
 }
 .nav-slider a.active {
 	background: #ffc72a;
+	border-top: 1px solid rgba(0,0,0,0.2);
 }
 
 /* slider Témoignages*/
+
+.temoignages {
+	height: 100%;
+}
 
 .temoignages .slick-slider {
 	border-bottom: 50px solid #0194ca;
@@ -337,37 +344,35 @@ small {
 
 .accueil .main h2 {
 	background: #2d2a26;
+	text-align: center;
 }
 
 .accueil .temoignages .thumb {
-	width: 276px;
-	height: 270px;
+	width: 243px;
+	height: 243px;
 	position: absolute;
 	left: 0;
 	z-index: 500;
 	border-right: 1px solid #fff;
 }
 
-.accueil .temoignages {
-	height: 270px;
-}
 .accueil .temoignages .wrapper {
-	margin-left: 276px;
-	height: 270px;
+	margin-left: 243px;
+	height: 243px;
 }
 
 .accueil .temoignages .controls .prev {
-	left: 276px;
+	left: 243px;
 	
 }
 .accueil .temoignages .slick-dots {
-	padding-left: 276px;
+	padding-left: 243px;
 	left: 0;
 }
 .accueil .accesDirect a {
 	display: block;
 	width: 33%;
-	height: 500px;
+	height: 100%;
 	float: left;
 }
 
@@ -378,10 +383,6 @@ small {
 	cursor: pointer;
 }
 
-.clients .temoignages {
-	height: 594px;
-}
-
 /*page réalisations*/
 
 .realisations .categoryFilters {
@@ -389,7 +390,6 @@ small {
 	top: 100px;
 	right: 200px;
 }
-
 
 .realisations .main {
 	overflow: scroll;
@@ -406,19 +406,21 @@ small {
 }
 
 .realisations .item {
-  margin: 5px;
+  margin: 2px;
   float: left;
 }
 
 .realisations .category {
-	width: 300px;
+	width: 364px;
 }
 
 .realisations .product {
-	width: 145px;
+	width: 180px;
 }
 
-.realisations-category .col-sm-2 {width: 20%;}
+.realisations-category .col-sm-2 {
+	width: 20%;
+}
 
 /* page valeurs */
 

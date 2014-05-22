@@ -4,19 +4,19 @@
 			<small class="text-primary">Nos réalisations</small><br>
 			<strong>{{category.order + 1}} - {{category.name}}</strong>
 		</h1>
-		<a href="/" class="btn-accueil"><img src="../images/close.jpg" height="174" width="176" alt="retour à l'accueil"></a>
+		<a href="/" class="btn-accueil"><img src="../images/close.jpg" height="155" alt="retour à l'accueil"></a>
 	</header>
-	<div class="main" role="main">
-			<div class="row">
-				<div class="col-md-6">
-					<p class="contenu">{{category.description}}</p>
-					<p>{{url}}</p>
-				</div>
-				<div class="col-md-6">
-					<img src="{{category.thumb}}" alt="" class="img-reponsive" />
-				</div>
+	<div class="main row" role="main">
+
+		<div class="col-md-6">
+			<div class="wrapper contenu">
+			<p>{{category.description}}</p>
 			</div>
-		<div class="nav-slider">
+		</div>
+		<div class="col-md-6">
+			<img src="{{category.thumb}}" alt="" class="img-reponsive" />
+		</div>
+		<div class="nav-slider col-sm-12">
 			<div class="row">
 				<div class=" col-sm-{{12 / realisations.length | number:0}}" ng-repeat="category in realisations track by $index | orderBy: 'order'">
 					<a ng-class="{active: isActiveCategory(category)}" ng-click="clickCategory(category)">
