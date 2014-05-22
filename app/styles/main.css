@@ -390,16 +390,32 @@ small {
 	right: 200px;
 }
 
-.realisations .category, .realisations .item {
-		float: left;
+
+.realisations .main {
+	overflow: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
-.realisations .category {
-	width: 400px;
+.gallery {
+	width: 150%;
+}
+
+.gallery div {
+	display: inline;;
 }
 
 .realisations .item {
-	width: 200px;
+  margin: 5px;
+  float: left;
+}
+
+.realisations .category {
+	width: 300px;
+}
+
+.realisations .product {
+	width: 145px;
 }
 
 .realisations-category .col-sm-2 {width: 20%;}

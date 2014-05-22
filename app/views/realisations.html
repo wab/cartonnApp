@@ -1,0 +1,27 @@
+<div class="{{page.id}}">
+	<header class="mainheader" ng-include="'views/header.html'">
+
+	</header>
+	<div class="categoryFilters">
+		<select ng-model="categorySelect" ng-options="value.id as value.name for value in realisations">
+			<option value="">toutes les réalisations</option>
+		</select>
+	</div>
+	
+	<div class="main" role="main">
+
+		<div class="gallery" masonry="{  columnWidth: 155, itemSelector: '.item' }">
+
+
+			<div ng-repeat="item in page.items | orderBy : order | filter:categorySelect" class="masonry-brick item {{item.class}} {{item.cateogory}}">		
+
+				<a href="#{{item.url}}">
+					<img src="{{item.image}}" class="img-responsive">
+				</a>			
+							
+			</div>
+
+		</div>
+
+	</div>
+</div>
