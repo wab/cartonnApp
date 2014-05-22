@@ -15,16 +15,23 @@
 	"temoignages": [
 		{
 			"id": "01",
-			"thumb": "../images/clients/videos/cordon-electronics.jpg",
+			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["cordon electronics","dinan"],
 			"rate":"★★★☆☆"
 		},
 		{
 			"id": "02",
-			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
+			"thumb": "../images/clients/temoignages/combier.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
-			"entreprise": ["entreperise","Dinard"],
+			"entreprise": ["Distillerie Combier","Dinard"],
+			"rate":"★★★★☆"
+		},
+		{
+			"id": "03",
+			"thumb": "../images/clients/temoignages/magm.jpg",
+			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"entreprise": ["Mag M","Dinard"],
 			"rate":"★★★★☆"
 		}
 
@@ -56,7 +63,7 @@
 			"id": "entreprise-1",
 			"order" : 0,
 			"title" : ["Historique"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/entreprise/slide-historique.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -67,7 +74,7 @@
 			"id": "entreprise-2",
 			"order" : 1,
 			"title" : ["Chiffres", "Clés"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/entreprise/slide-chiffres-cles.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -78,7 +85,7 @@
 			"id": "entreprise-3",
 			"order" : 2,
 			"title" : ["Entreprise"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/entreprise/slide-entreprise.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -112,77 +119,77 @@
 			"order" : 0,
 			"category": "box",
 			"class": "category",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/box/thumb.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 1,
 			"category": "box",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
-			"url" : "/realisations/box"
+			"image" : "../images/realisations/box/thumb-conibi.jpg",
+			"url" : "/realisations/box/r1"
 		},
 		{
 			"order" : 2,
 			"category": "box",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
-			"url" : "/realisations/box"
+			"image" : "../images/realisations/box/thumb-maison-larzul.jpg",
+			"url" : "/realisations/box/r1"
 		},
 		{
 			"order" : 3,
 			"category": "box",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
-			"url" : "/realisations/box"
+			"image" : "../images/realisations/box/thumb-tipiak.jpg",
+			"url" : "/realisations/box/r3"
 		},
 		{
 			"order" : 4,
 			"category": "fonds-auto",
 			"class": "category",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/fonds-auto/thumb.jpg",
 			"url" : "/realisations/fonds-auto"
 		},
 		{
 			"order" : 5,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/fonds-auto/thumb-biomereux.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 6,
-			"category": "plv",
-			"class": "category",
-			"image" : "../images/realisations/img1.jpg",
+			"category": "fonds-auto",
+			"class": "product",
+			"image" : "../images/realisations/fonds-auto/thumb-bierres-bretagne.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 7,
-			"category": "plv",
+			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/fonds-auto/thumb-couthouis.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 8,
-			"category": "plv",
+			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/fonds-auto/thumb-huilerie.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 9,
-			"category": "plv",
+			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/fonds-auto/thumb-migros.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 10,
-			"category": "plv",
+			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "../images/realisations/fonds-auto/thumb-mobiltron.jpg",
 			"url" : "/realisations/box"
 		},
 		{
@@ -238,7 +245,7 @@
 			"id": "services-1",
 			"order" : 0,
 			"title" : ["Bureau d'étude", "integré"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/services/slide-reactivite.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -260,7 +267,7 @@
 			"id": "services-3",
 			"order" : 2,
 			"title" : ["Réactivité", "et proximité "],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/services/slide-reactivite.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -288,7 +295,7 @@
 			"id": "valeur-1",
 			"order" : 0,
 			"title" : ["Le sens de", "l'engagement"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/valeurs/slide-01.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -299,7 +306,7 @@
 			"id": "valeur-2",
 			"order" : 1,
 			"title" : ["Le respect et l'importance", "accordés au client"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/valeurs/slide-02.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -310,7 +317,7 @@
 			"id": "valeur-3",
 			"order" : 2,
 			"title" : ["Les Hommes au coeur", "de l'entreprise"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/valeurs/slide-03.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -321,7 +328,7 @@
 			"id": "valeur-4",
 			"order" : 3,
 			"title" : ["Une entreprise", "responsable"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/valeurs/slide-04.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
@@ -332,7 +339,7 @@
 			"id": "valeur-5",
 			"order" : 4,
 			"title" : ["L'amélioration des ", "conditions de travail"],
-			"image" : "images/accueil/accueil-slider.jpg",
+			"image" : "../images/valeurs/slide-05.jpg",
 			"subtitle" : "présentation & historique",
 			"texte" : [
 				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
