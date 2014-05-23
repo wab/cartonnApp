@@ -1,6 +1,9 @@
 <div class="{{page.id}}">
 	<header class="mainheader" ng-include="'views/header.html'">
 	</header>
+	<modal-dialog show='dialogShown' dialog-title='My Dialog'>
+  <p>Dialog content goes in here</p>
+</modal-dialog>
 	<div class="main" role="main">
 		<div slick ng-transclude settings="slickConfig" control="slickHandle">
 			<div ng-repeat="slide in page.slides track by $index | orderBy: 'order'" data-id="{{slide.id}}">
@@ -24,4 +27,6 @@
 			</div>
 		</div>
 	</div>
+
+	
 </div>
