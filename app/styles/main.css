@@ -65,7 +65,7 @@ small {
 .main {
 	height: 564px;
 	position: relative;
-	background: url(../images/texture.jpg);
+	background: #fff url(../images/texture.jpg);
 }
 
 .main > div {
@@ -84,7 +84,7 @@ small {
 
 .section-title {
 	position: absolute;
-	padding: 0.8em;
+	padding: 0.5em 1em;
 	top: 0;
 	left: 0;
 	color: #fff;
@@ -153,7 +153,7 @@ small {
 /*header */
 
 .mainheader {
-	background: url(../images/header.jpg) top left no-repeat;
+	background: #aaa url(../images/header.jpg) top left no-repeat;
 	border-bottom: 1px solid #fff;
 }
 
@@ -379,8 +379,21 @@ small {
 
 /*page clients*/
 
-.img-nav {
-	cursor: pointer;
+.clients .videos {
+	height: 410px;
+	margin-bottom: 1px;
+}
+
+.clients .nav-videos {
+	height: 154px;
+}
+
+.clients .temoignages {
+	font-size: 1.2em;
+}
+
+.clients .temoignages .rating {
+	font-size: 2em;
 }
 
 /*page réalisations*/
