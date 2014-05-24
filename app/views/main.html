@@ -25,15 +25,13 @@
             <div class="col-sm-6">                
                 <div class="temoignages">
                     <div slick ng-transclude settings="slickConfigtemoignage" control="slickHandle">
-                        <div ng-repeat="temoignage in pages.clients.temoignages">
+                        <div ng-repeat="temoignage in pages.clients.temoignages | limitTo: 3">
                             <div class="thumb">
                                 <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive">
                             </div>
 
                             <div class="wrapper">
-                                <p class="rating">
-                                    {{temoignage.rate}}
-                                </p>
+                                <rating class="rating" ng-model="temoignage.rate" readonly="true"></rating>
                                 <blockquote>
                                     <strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
                                     {{temoignage.blockquote[1]}}.

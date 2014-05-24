@@ -7,10 +7,9 @@
 					<h2 class="section-title">Ce que nos clients disent de nous</h2>
 					<div slick ng-transclude settings="slickConfig" control="slickHandle">
 						<div ng-repeat="temoignage in page.temoignages">
-							<div class="wrapper">
-								<p class="rating">
-									{{temoignage.rate}}
-								</p>
+							<div class="wrapper" >
+								<rating class="rating" ng-model="temoignage.rate" readonly="true"></rating>
+								
 								<blockquote>
 									<strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
 									{{temoignage.blockquote[1]}}.

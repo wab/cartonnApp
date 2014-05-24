@@ -11,7 +11,8 @@ var cartonnApp = angular.module('cartonnApp', [
     'bardo.directives',
     'FBAngular',
     'wu.masonry',
-    'ngModal'
+    'ngModal',
+    'ui.bootstrap'
   ]);
 
 cartonnApp.config(['$routeProvider', function ($routeProvider) {

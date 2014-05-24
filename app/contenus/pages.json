@@ -18,21 +18,21 @@
 			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["cordon electronics","dinan"],
-			"rate":"★★★☆☆"
+			"rate": 4
 		},
 		{
 			"id": "02",
 			"thumb": "../images/clients/temoignages/combier.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["Distillerie Combier","Dinard"],
-			"rate":"★★★★☆"
+			"rate": 3
 		},
 		{
 			"id": "03",
 			"thumb": "../images/clients/temoignages/magm.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["Mag M","Dinard"],
-			"rate":"★★★★☆"
+			"rate": 4
 		}
 
 	],
