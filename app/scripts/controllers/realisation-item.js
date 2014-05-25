@@ -20,4 +20,15 @@ cartonnApp.controller('RealisationitemCtrl', ['$scope', 'Realisations', '$routeP
 
 	};
 
+	// classe active
+    $scope.ispageActive = function(page, element, attrs) {
+
+    var activePage = angular.element('.page').attr('data-page');
+
+      if (page.id === activePage) {
+        return true;
+      }
+      return false;
+    };
+
 }]);

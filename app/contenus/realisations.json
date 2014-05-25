@@ -4,63 +4,58 @@
 		"name": "box",
 		"thumb": "../images/realisations/box/thumb.jpg",
 		"order": 0,
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"soustitre" : "Les avantages",
+		"description" : "Produit multi-fonctions",
+		"liste" : [
+			"Peu de contraintes dimensionnelles",
+			"Large panel de qualité",
+			"Protection du produit",
+			"Emballage de transport",
+			"Outil de communication sur lieu de vente"
+		],
 		"items": [
 				{
 				"order": 0,
-				"id": "r1",
-				"name": "realisation 1",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c1",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "conbini",
+				"name": "Conibi",
+				"soustitre": "Decoupe Grands Formats",
+				"description": [
+					"Découpe grand format avec une impression flexo 4 couleurs. Ce produit sert de collecteur et de caisse de transport avec son couvercle intégré et son fond renforcé répondant aux contraintes de poids"
+					],
+				"apport": "réalisation d’un emballage permettant de communiquer, de collecter, de stocker et de transporter",
+				"images": ["../images/realisations/box/conbini/image-conbini-1.jpg", "../images/realisations/box/conbini/image-conbini-2.jpg"]
 				},
 				{
 				"order": 1,
-				"id": "r2",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "larzul",
+				"name": "Larzul",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "texte",
+				"images": [
+					"../images/realisations/box/larzul/img-1.jpg",
+					"../images/realisations/box/larzul/img-2.jpg",
+					"../images/realisations/box/larzul/img-2.jpg"
+					]
 				},
 				{
 				"order": 2,
-				"id": "r3",
-				"name": "realisation 3",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				},
-				{
-				"order": 3,
-				"id": "r1",
-				"name": "realisation 1",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c1",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png" ]
-				},
-				{
-				"order": 4,
-				"id": "r2",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				},
-				{
-				"order": 5,
-				"id": "r2",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "tipiak",
+				"name": "tipiak",
+				"soustitre": "BOX de transport servant de présentoir en GMS",
+				"description": [
+					"Communication par une impression flexo 4 couleurs",
+					"Fronton intégré à l’emballage par une prédécoupe sur la face avant"
+					],
+				"apport": "solution économique trouvée par un process simple et sans contraintes quantitatives",
+				"images": [
+					"../images/realisations/box/tipiak/img-1.jpg",
+					"../images/realisations/box/tipiak/img-2.jpg"
+					]
 				}
-				]
+			]
 	},
 	{
 		"id": "fonds-auto",

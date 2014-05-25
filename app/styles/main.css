@@ -113,6 +113,12 @@ small {
 	right: 0;
 	cursor: pointer;
 }
+.btn-retour {
+	position: absolute;
+	top: 0;
+	right: 160px;
+	cursor: pointer;
+}
 
 .nav a span {font-weight: bold;}
 
@@ -179,7 +185,7 @@ small {
 .outil .mainheader h1 {
 	background-image: url(../images/titre-outil.png);
 }
-.realisations .mainheader h1 {
+.realisations .mainheader h1, .realisations-item .mainheader h1, .realisations-category .mainheader h1  {
 	background-image: url(../images/titre-realisations.png);
 }
 .services .mainheader h1 {
@@ -479,6 +485,16 @@ small {
 
 .realisations-category .col-sm-2 {
 	width: 20%;
+}
+
+.realisations-item .main {
+	padding-bottom: 65px;  
+}
+
+.pagination {
+	border-top: 1px solid #fff;
+	height: 65px;
+	margin-top: -65px;
 }
 
 /* page valeurs */

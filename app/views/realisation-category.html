@@ -10,8 +10,17 @@
 
 		<div class="col-md-6">
 			<div class="wrapper contenu">
-			<p>{{category.description}}</p>
+				<h2>{{category.soustitre}}</h2>
+				<hr>
+				<p>{{category.description}}</p>
+				<ul>
+					<li ng-repeat="li in category.liste">{{li}}</li>
+				</ul>
+				<p class="text-center">
+					<a ng-href="#/realisations/{{category.id}}/{{category.items[0].id}}" class="btn btn-primary btn-lg">Voir les réalisations</a>
+				</p>
 			</div>
+
 		</div>
 		<div class="col-md-6">
 			<img src="{{category.thumb}}" alt="" class="img-reponsive" />

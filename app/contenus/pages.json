@@ -150,21 +150,21 @@
 			"category": "box",
 			"class": "product",
 			"image" : "../images/realisations/box/thumb-conibi.jpg",
-			"url" : "/realisations/box/r1"
+			"url" : "/realisations/box/conbini"
 		},
 		{
 			"order" : 2,
 			"category": "box",
 			"class": "product",
 			"image" : "../images/realisations/box/thumb-maison-larzul.jpg",
-			"url" : "/realisations/box/r1"
+			"url" : "/realisations/box/larzoul"
 		},
 		{
 			"order" : 3,
 			"category": "box",
 			"class": "product",
 			"image" : "../images/realisations/box/thumb-tipiak.jpg",
-			"url" : "/realisations/box/r3"
+			"url" : "/realisations/box/tipiak"
 		},
 		{
 			"order" : 4,
