@@ -1,19 +1,15 @@
 <div class="{{page.id}}">
 	<header class="mainheader" ng-include="'views/header.html'">
 	</header>
-	<modal-dialog show='dialogShown' dialog-title='My Dialog'>
-  <p>Dialog content goes in here</p>
-</modal-dialog>
 	<div class="main" role="main">
 		<div slick ng-transclude settings="slickConfig" control="slickHandle">
 			<div ng-repeat="slide in page.slides track by $index | orderBy: 'order'" data-id="{{slide.id}}">
 				<div class="slide" ng-click="islideActive()" style="background-image: url({{slide.image}});">
-					<!-- <div class="col-md-6">
-						<div class="wrapper">
-							<h2>{{slide.title[0]}}</h2>
-							<p>{{slide.texte[0]}}</p>
-						</div>
-					</div> -->
+					<div ng-if="slide.id == 'valeur-2'">
+						<a class="btn btn-primary btn-schema" ng-click="clickToOpen(slide.box)">Voir le <strong>schéma</strong><br> <small>d'organisation de l'entreprise</small></a>
+
+					</div>
+					
 				</div>
 			</div>
 		</div>

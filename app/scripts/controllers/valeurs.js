@@ -1,6 +1,6 @@
 'use strict';
 
-cartonnApp.controller('ValeursCtrl', ['$scope', 'Pages', function ($scope, Pages) {
+cartonnApp.controller('ValeursCtrl', ['$scope', 'Pages', 'ngDialog', function ($scope, Pages, ngDialog) {
 	
 	Pages.getData(function(data) {
 		console.log('data loaded');
@@ -16,6 +16,14 @@ cartonnApp.controller('ValeursCtrl', ['$scope', 'Pages', function ($scope, Pages
 	$scope.slickHandle = {
 
 	};
+
+	$scope.clickToOpen = function (img) {
+		var image = '<img src="' + img + '" class="img-responsive" />';
+        ngDialog.open({   	
+        	template: image,
+        	plain: true
+        });
+    };
 
 	// classe active
     $scope.islideActive = function(slide, scope, element, attrs) {

@@ -497,4 +497,10 @@ small {
     font-size: 15px;
     line-height: 1.33;
     padding: 10px;
-} 
+}
+
+/*ng Dialog*/
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+	width: 90%;
+}
