@@ -91,7 +91,6 @@ small {
 }
 
 .contenu {
-	margin-top: 1em;
 	text-transform: none;
 }
 
@@ -230,6 +229,7 @@ small {
 }
 
 .slide {
+	position: relative;
 	padding: 0px;
 	min-height: 475px;
 	background-repeat: no-repeat;
@@ -237,9 +237,9 @@ small {
 	color: #fff;
 }
 
-.nav-slider {
-	
+.main > div.nav-slider {	
 	border-top: 2px solid #fff;
+	height: 100px;
 }
 
 .nav-slider a {
@@ -281,6 +281,15 @@ small {
 .nav-slider a.active {
 	background: #ffc72a;
 	border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.nav-sous-slide {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20%;
+	padding: 100px 1em 1em 0;
+	height: 475px;
 }
 
 /* slider Témoignages*/
@@ -376,6 +385,43 @@ small {
 	float: left;
 }
 
+/*page entreprise*/
+
+.entreprise .nav-sous-slide .btn-default {
+	background: rgba(0,0,0,0.1);
+	border-right: 4px solid #ccc;
+}
+
+.entreprise .nav-sous-slide .effectif {
+	border-right: 4px solid #64af43;
+}
+.entreprise .nav-sous-slide .effectif.active {
+	background-color: #64af43;
+}
+.entreprise .nav-sous-slide .ca {
+	border-right: 4px solid #269396;
+}
+.entreprise .nav-sous-slide .ca.active {
+	background-color: #269396;
+}
+.entreprise .nav-sous-slide .production {
+	border-right: 4px solid #1f3462;
+}
+.entreprise .nav-sous-slide .production.active {
+	background-color: #1f3462;
+}
+.entreprise .nav-sous-slide .taux {
+	border-right: 4px solid #f8b01c;
+}
+.entreprise .nav-sous-slide .taux.active {
+	background-color: #f8b01c;
+}
+.entreprise .nav-sous-slide .of {
+	border-right: 4px solid #942424;
+}
+.entreprise .nav-sous-slide .of.active {
+	background-color: #942424;
+}
 
 /*page clients*/
 
@@ -437,4 +483,18 @@ small {
 
 /* page valeurs */
 
-.valeurs .col-sm-2 {width: 20%;}
+.valeurs .col-sm-2 {
+	width: 20%;
+}
+.valeurs .btn-schema {
+	display: block;
+	max-width: 250px;
+	position: absolute;
+	top: 340px;
+	left: 160px;
+	white-space: normal;
+	border-radius: 0;
+    font-size: 15px;
+    line-height: 1.33;
+    padding: 10px;
+} 

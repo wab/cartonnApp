@@ -63,38 +63,61 @@
 			"id": "entreprise-1",
 			"order" : 0,
 			"title" : ["Historique"],
-			"image" : "../images/entreprise/slide-historique.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/entreprise/slide-historique.jpg"
 		},
 		{
-			"id": "entreprise-2",
+			"id": "chiffres-cles",
 			"order" : 1,
 			"title" : ["Chiffres", "Clés"],
-			"image" : "../images/entreprise/slide-chiffres-cles.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/entreprise/slide-chiffres-cles.png"
 		},
 		{
 			"id": "entreprise-3",
-			"order" : 2,
+			"order" : 4,
 			"title" : ["Entreprise"],
-			"image" : "../images/entreprise/slide-entreprise.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/entreprise/slide-entreprise.jpg"
+		}
+	],
+	"slideChiffres" : [
+		{
+		"id": "all",
+		"order" : 0,
+		"title" : ["Tous"],
+		"image" : "../images/entreprise/chiffres-cles/slide-all.png"
+		},
+		{
+		"id": "effectif",
+		"order" : 1,
+		"title" : ["Effectif"],
+		"image" : "../images/entreprise/chiffres-cles/slide-effectif.png"
+		},
+		{
+		"id": "ca",
+		"order" : 2,
+		"title" : ["CA", "en k€"],
+		"image" : "../images/entreprise/chiffres-cles/slide-ca.png"
+		},
+		{
+		"id": "production",
+		"order" : 3,
+		"title" : ["Production nette", "en km²"],
+		"image" : "../images/entreprise/chiffres-cles/slide-production.png"
+		},
+		{
+		"id": "taux",
+		"order" : 4,
+		"title" : ["Taux de service", "en %"],
+		"image" : "../images/entreprise/chiffres-cles/slide-taux.png"
+		},
+		{
+		"id": "of",
+		"order" : 5,
+		"title" : ["Of / mois"],
+		"image" : "../images/entreprise/chiffres-cles/slide-of.png"
 		}
 
-		]
-	},
+	]
+},
 "outil": {
 	"id": "outil",
 	"title": ["un outil industriel", "performant"],
@@ -245,44 +268,24 @@
 			"id": "services-1",
 			"order" : 0,
 			"title" : ["Bureau d'étude", "integré"],
-			"image" : "../images/services/slide-reactivite.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : ""
 		},
 		{
 			"id": "services-2",
 			"order" : 1,
 			"title" : ["", "conseil"],
-			"image" : "images/accueil/accueil-slider.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : ""
 		},
 		{
 			"id": "services-3",
 			"order" : 2,
 			"title" : ["Réactivité", "et proximité "],
-			"image" : "../images/services/slide-reactivite.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/services/reactivite-proximite.png"
 		},{
 			"id": "services-4",
 			"order" : 3,
 			"title" : ["Respect", "des engagements"],
-			"image" : "images/accueil/accueil-slider.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : ""
 		} 
 		]
 	},
@@ -295,56 +298,31 @@
 			"id": "valeur-1",
 			"order" : 0,
 			"title" : ["Le sens de", "l'engagement"],
-			"image" : "../images/valeurs/slide-01.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/valeurs/slide-01.jpg"
 		},
 		{
 			"id": "valeur-2",
 			"order" : 1,
 			"title" : ["Le respect et l'importance", "accordés au client"],
-			"image" : "../images/valeurs/slide-02.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/valeurs/slide-02.jpg"
 		},
 		{
 			"id": "valeur-3",
 			"order" : 2,
 			"title" : ["Les Hommes au coeur", "de l'entreprise"],
-			"image" : "../images/valeurs/slide-03.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/valeurs/slide-03.jpg"
 		},
 		{
 			"id": "valeur-4",
 			"order" : 3,
 			"title" : ["Une entreprise", "responsable"],
-			"image" : "../images/valeurs/slide-04.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/valeurs/slide-04.jpg"
 		},
 		{
 			"id": "valeur-5",
 			"order" : 4,
 			"title" : ["L'amélioration des ", "conditions de travail"],
-			"image" : "../images/valeurs/slide-05.jpg",
-			"subtitle" : "présentation & historique",
-			"texte" : [
-				"Nulla auctor eleifend turpis consequat pharetra. Vestibulum sit amet ipsum lacus. Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id molestie magna risus ut nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac sodales magna. Nulla auctor eleifend turpis consequat pharetra. Duis sagittis, est sit amet gravida tristique, purus lectus venenatis urna, id ‘molestie’ magna risus ut nunc. Cras molestie risus a enim convallis vitae luctus libero lacinia. Sed dapibus, lectus sit amet adipiscing egestas, mauris est viverra nibh, iaculis pretium sem orci aliquet mauris. Aliquam tincidunt velit sit amet ante hendrerit tempus. Donec et nisi dictum felis sollicitudin congue. Fusce ac sodales magna … Suspendisse potenti."
-				]
+			"image" : "../images/valeurs/slide-05.jpg"
 		} 
 		]
 	}

@@ -15,6 +15,13 @@ cartonnApp.controller('EntrepriseCtrl', ['$scope', 'Pages' ,
 
 	};
 
+	$scope.bgImg = "background-image: url(../images/entreprise/chiffres-cles/slide-all.png);";
+	$scope.bgLoad = function(img, event) {
+		$scope.bgImg = "background-image: url('" + img + "');" ;
+		removeClass('btnActive');
+		 $(event.target).addClass('btnActive');
+	};
+
 	// classe active
     $scope.islideActive = function(slide, scope, element, attrs) {
 
