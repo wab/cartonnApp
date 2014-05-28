@@ -7,7 +7,7 @@
 // use this if you want to recursively match all subfolders:
 // 'test/spec/**/*.js'
 
-module.exports = function (grunt) {
+module.exports = function(grunt) {
 
   // Load grunt tasks automatically
   require('load-grunt-tasks')(grunt);
@@ -149,7 +149,7 @@ module.exports = function (grunt) {
         src: ['<%= yeoman.app %>/index.html'],
         ignorePath: '<%= yeoman.app %>/',
         exclude: ['bootstrap.js']
-        
+
       }
     },
 
@@ -160,7 +160,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/scripts/{,*/}*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+            '<%= yeoman.dist %>/images/{,*/}{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
             '<%= yeoman.dist %>/styles/fonts/*'
           ]
         }
@@ -196,12 +196,12 @@ module.exports = function (grunt) {
     },
 
     less: {
-        development: {
-            files: {
-              //compiling bootstrap.less into bootstrap.css
-              "./app/bower_components/bootstrap/dist/css/bootstrap.css":"./app/styles/less/bootstrap.less",
-            }
+      development: {
+        files: {
+          //compiling bootstrap.less into bootstrap.css
+          "./app/bower_components/bootstrap/dist/css/bootstrap.css": "./app/styles/less/bootstrap.less",
         }
+      }
     },
 
     // The following *-min tasks produce minified files in the dist folder
@@ -286,7 +286,7 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/{,*/}*.{webp}',
             'fonts/*',
-            'realisations/*'
+            'contenus/*'
           ]
         }, {
           expand: true,
@@ -354,7 +354,7 @@ module.exports = function (grunt) {
   });
 
 
-  grunt.registerTask('serve', function (target) {
+  grunt.registerTask('serve', function(target) {
     if (target === 'dist') {
       return grunt.task.run(['build', 'connect:dist:keepalive']);
     }
@@ -370,7 +370,7 @@ module.exports = function (grunt) {
     ]);
   });
 
-  grunt.registerTask('server', function (target) {
+  grunt.registerTask('server', function(target) {
     grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
     grunt.task.run(['serve:' + target]);
   });
@@ -395,7 +395,6 @@ module.exports = function (grunt) {
     'cdnify',
     'cssmin',
     'uglify',
-    'rev',
     'usemin',
     'htmlmin'
   ]);

@@ -1,24 +1,25 @@
 'use strict';
 
-cartonnApp.controller('MainCtrl', ['$scope', 'Pages', 
-	function ($scope, Pages) {
+cartonnApp.controller('MainCtrl', ['$scope', 'Pages',
+	function($scope, Pages) {
 		Pages.getData(function(data) {
 			console.log('data loaded');
 			$scope.pages = data;
 			$scope.accueil = data.accueil;
 		});
-	$scope.slickConfig = {
+		$scope.slickConfig = {
 			dots: false,
 			arrows: true
-    };
+		};
 
-    $scope.slickHandle = {
+		$scope.slickHandle = {
 
-    };
+		};
 
-    $scope.slickConfigtemoignage = {
+		$scope.slickConfigtemoignage = {
 			dots: true,
 			arrows: false,
 			fade: true
-    };
-}]);
+		};
+	}
+]);

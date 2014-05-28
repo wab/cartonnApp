@@ -15,21 +15,21 @@
 	"temoignages": [
 		{
 			"id": "01",
-			"thumb": "../images/clients/temoignages/cordon-electronics.jpg",
+			"thumb": "images/clients/temoignages/cordon-electronics.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["cordon electronics","dinan"],
 			"rate": 4
 		},
 		{
 			"id": "02",
-			"thumb": "../images/clients/temoignages/combier.jpg",
+			"thumb": "images/clients/temoignages/combier.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["Distillerie Combier","Dinard"],
 			"rate": 3
 		},
 		{
 			"id": "03",
-			"thumb": "../images/clients/temoignages/magm.jpg",
+			"thumb": "images/clients/temoignages/magm.jpg",
 			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
 			"entreprise": ["Mag M","Dinard"],
 			"rate": 4
@@ -39,17 +39,17 @@
 	"videos": [
 		{
 			"title": "titre 1",
-			"thumb": "../images/clients/videos/cordon-electronics.jpg",
+			"thumb": "images/clients/videos/cordon-electronics.jpg",
 			"file":"../videos/v1.mp4"
 		},
 		{
 			"title": "titre 2",
-			"thumb": "../images/clients/videos/distillerie-combier.jpg",
+			"thumb": "images/clients/videos/distillerie-combier.jpg",
 			"file":"../videos/v1.mp4"
 		},
 		{
 			"title": "titre 2",
-			"thumb": "../images/clients/videos/mag-m.jpg",
+			"thumb": "images/clients/videos/mag-m.jpg",
 			"file":"../videos/v1.mp4"
 		}
 	]
@@ -63,19 +63,19 @@
 			"id": "entreprise-1",
 			"order" : 0,
 			"title" : ["Historique"],
-			"image" : "../images/entreprise/slide-historique.jpg"
+			"image" : "images/entreprise/slide-historique.jpg"
 		},
 		{
 			"id": "chiffres-cles",
 			"order" : 1,
 			"title" : ["Chiffres", "Clés"],
-			"image" : "../images/entreprise/slide-chiffres-cles.png"
+			"image" : "images/entreprise/slide-chiffres-cles.png"
 		},
 		{
 			"id": "entreprise-3",
 			"order" : 4,
 			"title" : ["Entreprise"],
-			"image" : "../images/entreprise/slide-entreprise.jpg"
+			"image" : "images/entreprise/slide-entreprise.jpg"
 		}
 	],
 	"slideChiffres" : [
@@ -83,37 +83,37 @@
 		"id": "all",
 		"order" : 0,
 		"title" : ["Tous"],
-		"image" : "../images/entreprise/chiffres-cles/slide-all.png"
+		"image" : "images/entreprise/chiffres-cles/slide-all.png"
 		},
 		{
 		"id": "effectif",
 		"order" : 1,
 		"title" : ["Effectif"],
-		"image" : "../images/entreprise/chiffres-cles/slide-effectif.png"
+		"image" : "images/entreprise/chiffres-cles/slide-effectif.png"
 		},
 		{
 		"id": "ca",
 		"order" : 2,
 		"title" : ["CA", "en k€"],
-		"image" : "../images/entreprise/chiffres-cles/slide-ca.png"
+		"image" : "images/entreprise/chiffres-cles/slide-ca.png"
 		},
 		{
 		"id": "production",
 		"order" : 3,
 		"title" : ["Production nette", "en km²"],
-		"image" : "../images/entreprise/chiffres-cles/slide-production.png"
+		"image" : "images/entreprise/chiffres-cles/slide-production.png"
 		},
 		{
 		"id": "taux",
 		"order" : 4,
 		"title" : ["Taux de service", "en %"],
-		"image" : "../images/entreprise/chiffres-cles/slide-taux.png"
+		"image" : "images/entreprise/chiffres-cles/slide-taux.png"
 		},
 		{
 		"id": "of",
 		"order" : 5,
 		"title" : ["Of / mois"],
-		"image" : "../images/entreprise/chiffres-cles/slide-of.png"
+		"image" : "images/entreprise/chiffres-cles/slide-of.png"
 		}
 
 	]
@@ -142,119 +142,119 @@
 			"order" : 0,
 			"category": "box",
 			"class": "category",
-			"image" : "../images/realisations/box/thumb.jpg",
+			"image" : "images/realisations/box/thumb.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 1,
 			"category": "box",
 			"class": "product",
-			"image" : "../images/realisations/box/thumb-conibi.jpg",
+			"image" : "images/realisations/box/thumb-conibi.jpg",
 			"url" : "/realisations/box/conbini"
 		},
 		{
 			"order" : 2,
 			"category": "box",
 			"class": "product",
-			"image" : "../images/realisations/box/thumb-maison-larzul.jpg",
+			"image" : "images/realisations/box/thumb-maison-larzul.jpg",
 			"url" : "/realisations/box/larzoul"
 		},
 		{
 			"order" : 3,
 			"category": "box",
 			"class": "product",
-			"image" : "../images/realisations/box/thumb-tipiak.jpg",
+			"image" : "images/realisations/box/thumb-tipiak.jpg",
 			"url" : "/realisations/box/tipiak"
 		},
 		{
 			"order" : 4,
 			"category": "fonds-auto",
 			"class": "category",
-			"image" : "../images/realisations/fonds-auto/thumb.jpg",
+			"image" : "images/realisations/fonds-auto/thumb.jpg",
 			"url" : "/realisations/fonds-auto"
 		},
 		{
 			"order" : 5,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/fonds-auto/thumb-biomereux.jpg",
+			"image" : "images/realisations/fonds-auto/thumb-biomereux.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 6,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/fonds-auto/thumb-bierres-bretagne.jpg",
+			"image" : "images/realisations/fonds-auto/thumb-bierres-bretagne.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 7,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/fonds-auto/thumb-couthouis.jpg",
+			"image" : "images/realisations/fonds-auto/thumb-couthouis.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 8,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/fonds-auto/thumb-huilerie.jpg",
+			"image" : "images/realisations/fonds-auto/thumb-huilerie.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 9,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/fonds-auto/thumb-migros.jpg",
+			"image" : "images/realisations/fonds-auto/thumb-migros.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 10,
 			"category": "fonds-auto",
 			"class": "product",
-			"image" : "../images/realisations/fonds-auto/thumb-mobiltron.jpg",
+			"image" : "images/realisations/fonds-auto/thumb-mobiltron.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 11,
 			"category": "plv",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "images/realisations/img1.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 12,
 			"category": "impression",
 			"class": "category",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "images/realisations/img1.jpg",
 			"url" : "/realisations/box"
 		},
 		{
 			"order" : 13,
 			"category": "impression",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "images/realisations/img1.jpg",
 			"url" : "/realisations/fonds-auto"
 		},
 		{
 			"order" : 14,
 			"category": "impression",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "images/realisations/img1.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 15,
 			"category": "etude-de-cas",
 			"class": "category",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "images/realisations/img1.jpg",
 			"url" : "/realisations/plv"
 		},
 		{
 			"order" : 16,
 			"category": "etude-de-cas",
 			"class": "product",
-			"image" : "../images/realisations/img1.jpg",
+			"image" : "images/realisations/img1.jpg",
 			"url" : "/realisations/plv"
 		}
 	]
@@ -280,7 +280,7 @@
 			"id": "services-3",
 			"order" : 2,
 			"title" : ["Réactivité", "et proximité "],
-			"image" : "../images/services/reactivite-proximite.png"
+			"image" : "images/services/reactivite-proximite.png"
 		},{
 			"id": "services-4",
 			"order" : 3,
@@ -298,32 +298,32 @@
 			"id": "valeur-1",
 			"order" : 0,
 			"title" : ["Le sens de", "l'engagement"],
-			"image" : "../images/valeurs/slide-01.jpg"
+			"image" : "images/valeurs/slide-01.jpg"
 		},
 		{
 			"id": "valeur-2",
 			"order" : 1,
 			"title" : ["Le respect et l'importance", "accordés au client"],
-			"image" : "../images/valeurs/slide-02.jpg",
-			"box" : "../images/valeurs/slide-org.jpg"
+			"image" : "images/valeurs/slide-02.jpg",
+			"box" : "images/valeurs/slide-org.jpg"
 		},
 		{
 			"id": "valeur-3",
 			"order" : 2,
 			"title" : ["Les Hommes au coeur", "de l'entreprise"],
-			"image" : "../images/valeurs/slide-03.jpg"
+			"image" : "images/valeurs/slide-03.jpg"
 		},
 		{
 			"id": "valeur-4",
 			"order" : 3,
 			"title" : ["Une entreprise", "responsable"],
-			"image" : "../images/valeurs/slide-04.jpg"
+			"image" : "images/valeurs/slide-04.jpg"
 		},
 		{
 			"id": "valeur-5",
 			"order" : 4,
 			"title" : ["L'amélioration des ", "conditions de travail"],
-			"image" : "../images/valeurs/slide-05.jpg"
+			"image" : "images/valeurs/slide-05.jpg"
 		} 
 		]
 	}
