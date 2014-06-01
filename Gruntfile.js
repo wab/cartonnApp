@@ -284,8 +284,9 @@ module.exports = function(grunt) {
             '.htaccess',
             '*.html',
             'views/{,*/}*.html',
-            'images/{,*/}*.{webp}',
+            'images/{,*/}{,*/}*.{webp}',
             'fonts/*',
+            'videos/*',
             'contenus/*'
           ]
         }, {
@@ -395,8 +396,9 @@ module.exports = function(grunt) {
     'cdnify',
     'cssmin',
     'uglify',
+    // 'rev',
     'usemin',
-    'htmlmin'
+    //'htmlmin'
   ]);
 
   grunt.registerTask('default', [

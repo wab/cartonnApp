@@ -23,7 +23,10 @@
 					"Découpe grand format avec une impression flexo 4 couleurs. Ce produit sert de collecteur et de caisse de transport avec son couvercle intégré et son fond renforcé répondant aux contraintes de poids"
 					],
 				"apport": "réalisation d’un emballage permettant de communiquer, de collecter, de stocker et de transporter",
-				"images": ["../images/realisations/box/conbini/image-conbini-1.jpg", "../images/realisations/box/conbini/image-conbini-2.jpg"]
+				"images": [
+					"../images/realisations/box/conbini/img-1.jpg",
+					"../images/realisations/box/conbini/image-conbini-2.jpg"
+					]
 				},
 				{
 				"order": 1,
