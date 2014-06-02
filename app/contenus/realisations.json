@@ -1,203 +1,338 @@
 [
 	{
-		"id": "box",
-		"name": "box",
-		"thumb": "../images/realisations/box/thumb.jpg",
-		"order": 0,
-		"soustitre" : "Les avantages",
-		"description" : "Produit multi-fonctions",
-		"liste" : [
-			"Peu de contraintes dimensionnelles",
-			"Large panel de qualité",
-			"Protection du produit",
-			"Emballage de transport",
-			"Outil de communication sur lieu de vente"
+	"id": "box",
+	"name": "box",
+	"thumb": "images/realisations/larzul.jpg",
+	"order": 0,
+	"soustitre" : "Les avantages",
+	"description" : "Produit multi-fonctions",
+	"liste" : [
+		"Produit multi-fonctions",
+		"Peu de contraintes dimensionnelles",
+		"Large panel de qualité",
+		"Protection du produit",
+		"Emballage de transport",
+		"Outil de communication sur lieu de vente"
 		],
-		"items": [
-				{
-				"order": 0,
-				"id": "conbini",
-				"name": "Conibi",
-				"soustitre": "Decoupe Grands Formats",
-				"description": [
-					"Découpe grand format avec une impression flexo 4 couleurs. Ce produit sert de collecteur et de caisse de transport avec son couvercle intégré et son fond renforcé répondant aux contraintes de poids"
-					],
-				"apport": "réalisation d’un emballage permettant de communiquer, de collecter, de stocker et de transporter",
-				"images": [
-					"../images/realisations/box/conbini/img-1.jpg",
-					"../images/realisations/box/conbini/image-conbini-2.jpg"
-					]
-				},
-				{
-				"order": 1,
-				"id": "larzul",
-				"name": "Larzul",
-				"soustitre": "sous titre",
-				"description": [
-					"description"
-					],
-				"apport": "texte",
-				"images": [
-					"../images/realisations/box/larzul/img-1.jpg",
-					"../images/realisations/box/larzul/img-2.jpg",
-					"../images/realisations/box/larzul/img-2.jpg"
-					]
-				},
-				{
-				"order": 2,
-				"id": "tipiak",
-				"name": "tipiak",
-				"soustitre": "BOX de transport servant de présentoir en GMS",
-				"description": [
-					"Communication par une impression flexo 4 couleurs",
-					"Fronton intégré à l’emballage par une prédécoupe sur la face avant"
-					],
-				"apport": "solution économique trouvée par un process simple et sans contraintes quantitatives",
-				"images": [
-					"../images/realisations/box/tipiak/img-1.jpg",
-					"../images/realisations/box/tipiak/img-2.jpg"
-					]
-				}
-			]
+	"items": [
+			{
+			"order": 0,
+			"id": "conbini",
+			"name": "Conibi",
+			"soustitre": "Découpe Grands Formats",
+			"description": [
+				"Découpe grand format avec une impression flexo 4 couleurs. Ce produit sert de collecteur et de caisse de transport avec son couvercle intégré et son fond renforcé répondant aux contraintes de poids"
+				],
+			"apport": "réalisation d’un emballage permettant de communiquer, de collecter, de stocker et de transporter",
+			"image": "images/realisations/conibi.jpg"
+			},
+			{
+			"order": 1,
+			"id": "larzul",
+			"name": "Larzul",
+			"soustitre": "sous titre",
+			"description": [
+				"description"
+				],
+			"apport": "texte",
+			"image": "images/realisations/larzul.jpg"
+			},
+			{
+			"order": 2,
+			"id": "tipiak",
+			"name": "tipiak",
+			"soustitre": "BOX de transport servant de présentoir en GMS",
+			"description": [
+				"Communication par une impression flexo 4 couleurs",
+				"Fronton intégré à l’emballage par une prédécoupe sur la face avant"
+				],
+			"apport": "solution économique trouvée par un process simple et sans contraintes quantitatives",
+			"image": "images/realisations/tipiak.jpg"
+			}
+		]
 	},
 	{
 		"id": "fonds-auto",
 		"name": "fonds auto",
-		"thumb": "images/realisations/img1.jpg",
+		"thumb": "images/realisations/mobiltron.jpg",
 		"order": 1,
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"soustitre" : "Les avantages",
+		"liste" : [
+			"Montage instantané",
+			"Réduction du coût de main d’œuvre",
+			"Optimisation de la logistique",
+			"Réduction ou suppression de la consommation d’adhésif",
+			"Possibilités de croisillons intégrés"
+		],
 		"items": [
 				{
 				"order": 0,
-				"id": "r10",
-				"name": "realisation 1",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c1",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "bieres-de-bretagne",
+				"name": "Bières de Bretagne",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "apport",
+				"image": "images/realisations/bieres-bretagne.jpg"
 				},
 				{
 				"order": 1,
-				"id": "r20",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "biomereux",
+				"name": "Bioméreux",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "apport",
+				"image": "images/realisations/biomereux.jpg"
 				},
 				{
 				"order": 2,
-				"id": "r30",
-				"name": "realisation 3",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				}]
+				"id": "couthouis",
+				"name": "Couthouis",
+				"soustitre": "4 coins collés",
+				"description": [
+					"Produit en montage automatique. A été proposé à ce client qui était consommateur de gros volume d’emballages  en montage manuel."
+					],
+				"apport": "plus de poste de préparation de montage, il est réalisé en instantané. Le client a gagné en productivité.",
+				"image": "images/realisations/couthouis.jpg"
+				},
+				{
+				"order": 3,
+				"id": "migros",
+				"name": "Migros",
+				"soustitre": "fond automatique",
+				"description": [
+					"Fond automatique imprimé 1 coul flexo servant de prêt à vendre sur le lieu de vente"
+					],
+				"apport": "capacité à produire industriellement un produit à montage automatique avec une faible hauteur",
+				"image": "images/realisations/migros.jpg"
+				},
+				{
+				"order": 4,
+				"id": "mobiltron",
+				"name": "Mobiltron",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "apport",
+				"image": "images/realisations/mobiltron.jpg"
+				},
+				{
+				"order": 5,
+				"id": "huilerie",
+				"name": "Huilerie croix verte",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "apport",
+				"image": "images/realisations/huilerie.jpg"
+				}
+				
+			]
 	},
 	{
 		"id": "plv",
-		"name": "plv",
-		"thumb": "images/realisations/img1.jpg",
+		"name": "PLV",
+		"thumb": "images/realisations/",
 		"order": 2,
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"soustitre" : "Les avantages",
+		"liste" : [
+			"Produit tout carton",
+			"100 % recyclable",
+			"Conception adaptée aux cahiers des charges du client",
+			"Produit livré à plat",
+			"Pas de contraintes quantitatives",
+			"Maîtrise totale de la fabrication donc des délais"
+		],
 		"items": [
 				{
 				"order": 0,
-				"id": "r100",
-				"name": "realisation 1",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c1",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "interbio",
+				"name": "Interbio",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "apport",
+				"image": "images/realisations/interbio.jpg"
 				},
 				{
 				"order": 1,
-				"id": "r200",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
+				"id": "ptitcraq",
+				"name": "Le p'tit craq",
+				"soustitre": "PLV tout CARTON",
+				"description": [
+					"PLV ¼ de palette avec  fronton imprimée 3 coul + vernis, cette PLV est capable de supporter un poids important.",
+					"Pas d’accessoires polluant ou difficile à recycler. Elle est réalisée en 100 % carton donc 100 % recyclable."
+					],
+				"apport": "économique car solution complète en carton avec de faibles contraintes quantitatives",
+				"image": "images/realisations/ptitcraq.jpg"
 				},
 				{
 				"order": 2,
-				"id": "r300",
-				"name": "realisation 3",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				}]
+				"id": "soframar",
+				"name": "Soframar",
+				"soustitre": "sous titre",
+				"description": [
+					"description"
+					],
+				"apport": "apport",
+				"image": "images/realisations/soframar.jpg"
+				}
+			]
 	},
 	{
-		"id": "impression",
-		"name": "impression",
-		"thumb": "images/realisations/img1.jpg",
+	"id": "impression",
+	"name": "L'impression",
+	"thumb": "images/realisations/",
+	"order": 2,
+	"soustitre" : "Les avantages",
+	"description" : "Réalisation de l’impression flexo : impression directe",
+	"liste" : [
+		"Pas de contraintes quantitatives",
+		"Délai de réalisation court",
+		"Solution économique",
+		"Utilisation d’encres à base aqueuse non polluantes",
+		"Large support d’impression possible, brun, blanc, de la micro cannelure (1.5 mm) à la double cannelure (7 mm)",
+		"Deux rendus possibles : mat ou brillant",
+		"Réponse à des contraintes techniques (traitement antistatique, vernis hydrofuge)"
+	],
+	"items": [
+		{
+		"order": 0,
+		"id": "combier",
+		"name": "Combier",
+		"soustitre": "Fond automatique avec croisillons intégrés",
+		"description": [
+			"Communication par une impression flexo 2 couleurs brillante"
+			],
+		"apport": "économique, avec une optimisation du temps de conditionnement dans la gestion des stocks avec un seul produit, pas de contraintes quantitatives, délai de production court car impression directe",
+		"image": "images/realisations/combier.jpg"
+		},
+		{
+		"order": 1,
+		"id": "conbini",
+		"name": "Conibi",
+		"soustitre": "Découpe Grands Formats",
+		"description": [
+			"Découpe grand format avec une impression flexo 4 couleurs. Ce produit sert de collecteur et de caisse de transport avec son couvercle intégré et son fond renforcé répondant aux contraintes de poids"
+			],
+		"apport": "réalisation d’un emballage permettant de communiquer, de collecter, de stocker et de transporter",
+		"image": "images/realisations/conibi.jpg"
+		},
+		{
+		"order": 2,
+		"id": "fleurdenicolas",
+		"name": "Les fleurs de Nicolas",
+		"soustitre": "Caisse americaine et calage",
+		"description": [
+			"Caisse américaine avec une impression flexo  4 coul et un calage neutre réalisé pour le transport de fleurs commandées sur internet et envoyées en colis unitaire."
+			],
+		"apport": "conception du calage qui répond aux fortes contraintes du transport avec un produit fragile. Les poignées permettent d’extraire facilement les fleurs sans les abîmées",
+		"image": "images/realisations/fleurdenicolas.jpg"
+		},
+		{
 		"order": 3,
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"items": [
-				{
-				"order": 0,
-				"id": "r1000",
-				"name": "realisation 1",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c1",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				},
-				{
-				"order": 1,
-				"id": "r2000",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				},
-				{
-				"order": 2,
-				"id": "r3000",
-				"name": "realisation 3",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				}]
+		"id": "larzul",
+		"name": "Larzul",
+		"soustitre": "sous titre",
+		"description": [
+			"description"
+			],
+		"apport": "texte",
+		"image": "images/realisations/larzul.jpg"
+		},
+		{
+		"order": 4,
+		"id": "ptitcraq",
+		"name": "Le p'tit craq",
+		"soustitre": "PLV tout CARTON",
+		"description": [
+			"PLV ¼ de palette avec  fronton imprimée 3 coul + vernis, cette PLV est capable de supporter un poids important.",
+			"Pas d’accessoires polluant ou difficile à recycler. Elle est réalisée en 100 % carton donc 100 % recyclable."
+			],
+		"apport": "économique car solution complète en carton avec de faibles contraintes quantitatives",
+		"image": "images/realisations/ptitcraq.jpg"
+		},
+		{
+		"order": 5,
+		"id": "sercel",
+		"name": "Sercel",
+		"soustitre": "dcoupe montage manuel",
+		"description": [
+			"Emballage réalisé avec un traitement technique antistatique répondant aux contraintes de l’industrie électronique, ensemble d’un fond, couvercle et de croisillons positionnables suivant les dimensions du produit"
+			],
+		"apport": "solution d’un traitement antistatique sur de petites quantités et rationalisation du nombre de références grâce aux croisillons adaptables",
+		"image": "images/realisations/sercel.jpg"
+		},
+		{
+		"order": 6,
+		"id": "tipiak",
+		"name": "tipiak",
+		"soustitre": "BOX de transport servant de présentoir en GMS",
+		"description": [
+			"Communication par une impression flexo 4 couleurs",
+			"Fronton intégré à l’emballage par une prédécoupe sur la face avant"
+			],
+		"apport": "solution économique trouvée par un process simple et sans contraintes quantitatives",
+		"image": "images/realisations/tipiak.jpg"
+		}
+	]
 	},
 	{
-		"id": "etude-de-cas",
-		"name": "étude de cas",
-		"thumb": "images/realisations/img1.jpg",
-		"order": 4,
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"items": [
-				{
-				"order": 0,
-				"id": "r10000",
-				"name": "realisation 1",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c1",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				},
-				{
-				"order": 1,
-				"id": "r20000",
-				"name": "realisation 2",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				},
-				{
-				"order": 2,
-				"id": "r3",
-				"name": "realisation 3",
-				"thumb": "images/realisations/img1.jpg",
-				"category": "c2",
-				"description": "Suspendisse potenti cras molestie, risus a enim convallis vitae luctus libero lacinia. Lorem ipsum dolor sit amet, — consectetur adipiscing — elit. Nulla auctor eleifend turpis consequat pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Potenti et eros sed justo commodo bibendum non at nunc.",
-				"images": ["images/realisations/img1.jpg", "images/yeoman.png"]
-				}]
+	"id": "etude-de-cas",
+	"name": "Étude de cas",
+	"thumb": "images/realisations/larzul.jpg",
+	"order": 0,
+	"soustitre" : "Les avantages",
+	"description" : "Produit multi-fonctions",
+	"liste" : [
+		"Produit multi-fonctions",
+		"Peu de contraintes dimensionnelles",
+		"Large panel de qualité",
+		"Protection du produit",
+		"Emballage de transport",
+		"Outil de communication sur lieu de vente"
+		],
+	"items": [
+		{
+		"order": 0,
+		"id": "conbini",
+		"name": "Conibi",
+		"soustitre": "Découpe Grands Formats",
+		"description": [
+			"Découpe grand format avec une impression flexo 4 couleurs. Ce produit sert de collecteur et de caisse de transport avec son couvercle intégré et son fond renforcé répondant aux contraintes de poids"
+			],
+		"apport": "réalisation d’un emballage permettant de communiquer, de collecter, de stocker et de transporter",
+		"image": "images/realisations/conibi.jpg"
+		},
+		{
+		"order": 1,
+		"id": "larzul",
+		"name": "Larzul",
+		"soustitre": "sous titre",
+		"description": [
+			"description"
+			],
+		"apport": "texte",
+		"image": "images/realisations/larzul.jpg"
+		},
+		{
+		"order": 2,
+		"id": "tipiak",
+		"name": "tipiak",
+		"soustitre": "BOX de transport servant de présentoir en GMS",
+		"description": [
+			"Communication par une impression flexo 4 couleurs",
+			"Fronton intégré à l’emballage par une prédécoupe sur la face avant"
+			],
+		"apport": "solution économique trouvée par un process simple et sans contraintes quantitatives",
+		"image": "images/realisations/tipiak.jpg"
+		}
+	]
 	}
 ]	

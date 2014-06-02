@@ -10,11 +10,7 @@
 		</header>
 		<div class="main row" role="main">
 			<div class="col-sm-8">
-				<div slick ng-transclude settings="slickConfig" control="slickHandle">
-					<div ng-repeat="image in item.images">
-						<img src="{{image}}" alt="" class="img-reponsive" />
-					</div>
-				</div>
+				<img src="{{item.image}}" alt="" class="img-responsive" />
 			</div>
 			<div class="col-sm-4">
 				<section class="section">

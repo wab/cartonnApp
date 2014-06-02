@@ -40,17 +40,17 @@
 		{
 			"title": "titre 1",
 			"thumb": "images/clients/videos/cordon-electronics.jpg",
-			"file":"../videos/v1.mp4"
+			"file":"videos/itw_cordon-electronics.mp4"
 		},
 		{
 			"title": "titre 2",
 			"thumb": "images/clients/videos/distillerie-combier.jpg",
-			"file":"../videos/v1.mp4"
+			"file":"videos/itw_distillerie-combier.mp4"
 		},
 		{
 			"title": "titre 2",
 			"thumb": "images/clients/videos/mag-m.jpg",
-			"file":"../videos/v1.mp4"
+			"file":"../videos/itw_magm.mp4"
 		}
 	]
 },
@@ -60,7 +60,7 @@
 	"title": ["notre", "entreprise"],
 	"slides": [
 		{
-			"id": "entreprise-1",
+			"id": "historique",
 			"order" : 0,
 			"title" : ["Historique"],
 			"image" : "images/entreprise/slide-historique.jpg"
@@ -72,9 +72,9 @@
 			"image" : "images/entreprise/slide-chiffres-cles.png"
 		},
 		{
-			"id": "entreprise-3",
-			"order" : 4,
-			"title" : ["Entreprise"],
+			"id": "entreprise",
+			"order" : 2,
+			"title" : ["Une entreprise qui", "croit en son avenir"],
 			"image" : "images/entreprise/slide-entreprise.jpg"
 		}
 	],
@@ -123,15 +123,18 @@
 	"title": ["un outil industriel", "performant"],
 	"path": "/outil-industriel-performant",
 	"soustitre": ["passage du", "stade artisanal au stade industriel"],
-	"liste1": [
-		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod",
-		"Donec tempus tempus tellus"
+	"entreprise": [
+		"Site industriel de 4500 m²",
+		"Un outil totalement modernisé  : 3 millions d’investissement  entre 2009 et 2013 et 600 000 en 2014",
+		"Optimisation des flux  amont et aval",
+		"Des outils informatiques performants au niveau de l’outil de production pour : maîtriser les délais clients, mesurer la performance et la productivité générale de l’atelier"
 		],
-	"liste2": [
-		"Donec tempus tempus tellus, ac lacinia turpis mattis ac. Fusce ac sodales magna",
-		"Donec a congue leo"
+	"hommes": [
+		"Une spécialisation des équipes : la compétence au cœur des process",
+		"Un environnement de travail restructuré avec pour objectif la sécurité, la réduction de l’effort physique et de la pénibilité",
+		"ne organisation des équipes en 2 X 8 : capacité à gérer de très fortes variations de charge et ce tout au long de l’année"
 		],
-	"video": "../videos/v1.mp4"
+	"video": "videos/corporate.mp4"
 	},
 "realisations": {
 	"id": "realisations",
@@ -195,7 +198,7 @@
 			"url" : "/realisations/fonds-auto/couthouis"
 		},
 		{
-			"order" : 8,
+			"order" : 14,
 			"category": "fonds-auto",
 			"class": "product",
 			"image" : "images/realisations/thumb-fondsauto-migros.jpg",
@@ -237,7 +240,7 @@
 			"url" : "/realisations/plv/soframar"
 		},
 		{
-			"order" : 14,
+			"order" : 8,
 			"category": "impression",
 			"class": "category",
 			"image" : "images/realisations/thumb-impression.jpg",
