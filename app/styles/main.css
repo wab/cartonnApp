@@ -68,7 +68,7 @@ h3 {
 .main {
 	height: 564px;
 	position: relative;
-	background: #fff url('../images/texture.jpg');
+	background: #fff url(../images/texture.jpg);
 }
 
 .main > div {
@@ -102,7 +102,7 @@ h3 {
 }
 
 .snap-content {
-  background: url('../images/motif-header.png');
+  background: url("../images/motif-header.png");
 }
 .snap-drawer {
 	background: #1f1f1f;
@@ -181,22 +181,22 @@ h3 {
 }
 
 .clients .mainheader h1 {
-	background-image: url('../images/titre-clients.png');
+	background-image: url("../images/titre-clients.png");
 }
 .entreprise .mainheader h1 {
-	background-image: url('../images/titre-valeurs.png');
+	background-image: url("../images/titre-valeurs.png");
 }
 .outil .mainheader h1 {
-	background-image: url('../images/titre-outils.png');
+	background-image: url("../images/titre-outils.png");
 }
 .realisations .mainheader h1, .realisations-item .mainheader h1, .realisations-category .mainheader h1  {
-	background-image: url('../images/titre-realisations.png');
+	background-image: url("../images/titre-realisations.png");
 }
 .services .mainheader h1 {
-	background-image: url('../images/titre-valeurs.png');
+	background-image: url("../images/titre-valeurs.png");
 }
 .valeurs .mainheader h1 {
-	background-image: url('../images/titre-valeurs.png');
+	background-image: url("../images/titre-valeurs.png");
 }
 
 /*Slider */
@@ -234,7 +234,7 @@ h3 {
     padding: 0;
     position: absolute;
     top: 50%;
-	background-image: url('../images/slider-arrows.png');
+	background-image: url("../images/slider-arrows.png");
 	background-repeat: no-repeat;
 }
 
@@ -258,7 +258,7 @@ h3 {
 	display: block;
 	height: 100px;
 	padding: 2em 1em;
-	background: #999 url('../images/bg-nav-slider.png');
+	background: #999 url("../images/bg-nav-slider.png");
 	cursor: pointer;
 	color: #fff;
 	text-decoration: none;
@@ -274,7 +274,7 @@ h3 {
 	position: absolute;
 	top: -15px;
 	left: 30px;
-	background-image: url('../images/puce-slider.png');
+	background-image: url("../images/puce-slider.png");
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -337,7 +337,7 @@ h3 {
 	cursor: pointer;
 	width: 50px;
 	height: 50px;
-	background-image: url('../images/slider-arrows.png');
+	background-image: url("../images/slider-arrows.png");
 	background-repeat: no-repeat;
 }
 
