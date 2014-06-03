@@ -242,6 +242,7 @@ h3 {
 	position: relative;
 	padding: 0px;
 	min-height: 475px;
+	height: 475px;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #fff;
@@ -388,11 +389,16 @@ h3 {
 	padding-left: 243px;
 	left: 0;
 }
+.accueil .accesDirect {
+	height: 100%;
+}
 .accueil .accesDirect a {
 	display: block;
 	width: 33%;
 	height: 100%;
 	float: left;
+	overflow: hidden;
+	cursor: pointer;
 }
 
 /*page entreprise*/
@@ -437,11 +443,11 @@ h3 {
 
 .clients .videos {
 	height: 420px;
-	margin-bottom: 1px;
+	margin-bottom: 2px;
 }
 
 .clients .nav-videos {
-	height: 154px;
+	height: 152px;
 }
 
 .clients .nav-videos img {

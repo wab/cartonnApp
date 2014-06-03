@@ -18,6 +18,7 @@ cartonnApp.controller('ClientsCtrl', ['$scope', 'Pages',
 
 		};
 
+
 		// load video on click
 		$scope.loadvideo = function(videoFile) {
 			$scope.mainVideoFile = videoFile;
