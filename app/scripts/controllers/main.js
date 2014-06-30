@@ -18,8 +18,7 @@ cartonnApp.controller('MainCtrl', ['$scope', 'Pages',
 
 		$scope.slickConfigtemoignage = {
 			dots: true,
-			arrows: false,
-			fade: true
+			arrows: false
 		};
 	}
 ]);

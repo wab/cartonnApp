@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/../fonts/lato-regular-webfont.eot');
+    src: url('../fonts/lato-regular-webfont.eot');
     src: url('../fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/lato-regular-webfont.woff') format('woff'),
          url('../fonts/lato-regular-webfont.ttf') format('truetype'),
@@ -206,6 +206,10 @@ h3 {
 	max-height: 475px;
 }
 
+.slick-slide {
+	position: relative;
+}
+
 .slick-prev:before,.slick-next:before {
     content: none;
 }
@@ -256,12 +260,15 @@ h3 {
 .nav-slider a {
 	position: relative;
 	display: block;
-	height: 100px;
+	height: 85px;
 	padding: 2em 1em;
 	background: #999 url("../images/bg-nav-slider.png");
 	cursor: pointer;
 	color: #fff;
 	text-decoration: none;
+}
+.realisations-category .nav-slider a {
+	height: 65px;
 }
 .nav-slider a .nbre {
 	display: block;
@@ -304,10 +311,6 @@ h3 {
 }
 
 /* slider Témoignages*/
-
-.temoignages {
-	height: 100%;
-}
 
 .temoignages .slick-slider {
 	border-bottom: 50px solid #0194ca;
@@ -368,8 +371,6 @@ h3 {
 }
 
 .accueil .temoignages .thumb {
-	width: 243px;
-	height: 243px;
 	position: absolute;
 	left: 0;
 	z-index: 500;
@@ -377,7 +378,8 @@ h3 {
 }
 
 .accueil .temoignages .wrapper {
-	margin-left: 243px;
+	padding-left: 263px;
+	padding-right: 20px;
 	height: 243px;
 }
 
@@ -462,6 +464,16 @@ h3 {
 	font-size: 2em;
 }
 
+/*page services*/
+
+.videos-conseil {
+	color: #333;
+	width: 220px;
+	position: absolute;
+	top: 220px;
+	left: 100px;
+}
+
 /*page réalisations*/
 
 .realisations .categoryFilters {
@@ -477,7 +489,7 @@ h3 {
 }
 
 .gallery {
-	width: 150%;
+	width: 2200px;
 }
 
 .gallery div {
@@ -506,9 +518,7 @@ h3 {
 }
 
 .pagination {
-	border-top: 1px solid #fff;
-	height: 65px;
-	margin-top: -65px;
+	margin-top: -70px;
 }
 
 /* page valeurs */
@@ -533,4 +543,28 @@ h3 {
 
 .ngdialog.ngdialog-theme-default .ngdialog-content {
 	width: 90%;
+}
+
+/*select*/
+
+.categoryFilters select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 51px;
+   line-height: 41px;
+   text-transform: uppercase;
+   -webkit-appearance: none;
+   }
+
+.categoryFilters {
+width: 240px;
+height: 51px;
+overflow: hidden;
+background: url(../images/select.jpg) no-repeat right #fff;
+border: 1px solid #ccc;
 }

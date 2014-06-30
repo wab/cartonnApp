@@ -15,7 +15,7 @@ cartonnApp.controller('EntrepriseCtrl', ['$scope', 'Pages',
 
 		};
 
-		$scope.bgImg = "background-image: url(../images/entreprise/chiffres-cles/slide-all.png);";
+		$scope.bgImg = "background-image: url(images/entreprise/chiffres-cles/slide-ca.png);";
 		$scope.bgLoad = function(img, event) {
 			$scope.bgImg = "background-image: url('" + img + "');";
 			removeClass('btnActive');
@@ -26,7 +26,6 @@ cartonnApp.controller('EntrepriseCtrl', ['$scope', 'Pages',
 		$scope.islideActive = function(slide, scope, element, attrs) {
 
 			var activeSlide = angular.element('.slick-active').attr('data-id');
-			$scope.active = activeSlide;
 
 			if (slide.id === activeSlide) {
 				return true;

@@ -6,14 +6,14 @@
 			<div ng-repeat="slide in page.slides track by $index | orderBy: 'order'" data-id="{{slide.id}}">
 				<div class="slide" ng-click="islideActive()" style="background-image: url({{slide.image}});">
 					<div ng-if="slide.id == 'chiffres-cles'">
-						<div class="slide" style="{{bgImg}}"></div>
+						<div class="slide" style="{{bgImg}}" ng-click="islideActive()"></div>
 						<div class="nav-sous-slide">
 							<p ng-repeat="chiffre in page.slideChiffres | orderBy: order" class="contenu text-right">
 								<a class="btn btn-default {{chiffre.id}}"  ng-click="bgLoad(chiffre.image, $event)">{{chiffre.title[0]}} <small>{{chiffre.title[1]}}</small></a>
 							</p>
 						</div>
 					</div>
-				</div>
+				</div>				
 			</div>
 		</div>
 		<div class="nav-slider">

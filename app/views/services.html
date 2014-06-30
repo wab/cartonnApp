@@ -5,13 +5,12 @@
 		<div slick ng-transclude settings="slickConfig" control="slickHandle">
 			<div ng-repeat="slide in page.slides track by $index | orderBy: 'order'" data-id="{{slide.id}}">
 				<div class="slide" ng-click="islideActive()" style="background-image: url({{slide.image}});">
-					<!-- <div class="col-md-6">
-						<div class="wrapper">
-							<h2>{{slide.title[0]}} <strong>{{slide.title[1]}}</strong></h2>
-							<p>{{slide.texte[0]}}</p>
-						</div>
-					</div> -->
+					<div ng-if="slide.id == 'services-2'" class="videos-conseil" ng-click="islideActive()"> 
+						<h4>Nos Vidéos</h4>
+						<a ng-repeat="video in slide.videos" class="btn btn-primary btn-lg btn-block" ng-click="clickToOpen(video.url)">{{video.title}}</a>
+					</div>
 				</div>
+				
 			</div>
 		</div>
 		<div class="nav-slider">
@@ -23,6 +22,5 @@
 				</div>
 			</div>
 		</div>
-		<p>{{ancre}}</p>
 	</div>
 </div>

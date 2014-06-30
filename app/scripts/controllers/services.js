@@ -1,7 +1,7 @@
 'use strict';
 
-cartonnApp.controller('ServicesCtrl', ['$scope', 'Pages',
-	function($scope, Pages) {
+cartonnApp.controller('ServicesCtrl', ['$scope', 'Pages', 'ngDialog' ,
+	function($scope, Pages, ngDialog) {
 
 		Pages.getData(function(data) {
 			console.log('data loaded');
@@ -18,11 +18,18 @@ cartonnApp.controller('ServicesCtrl', ['$scope', 'Pages',
 
 		};
 
+		$scope.clickToOpen = function(video) {
+	      var video = '<video width="640" height="480" controls="controls" autoplay="true" src="' + video + '" class="img-responsive" type="video/mp4"></video>';
+	      ngDialog.open({
+	        template: video,
+	        plain: true
+	      });
+    };
+
 		// classe active
 		$scope.islideActive = function(slide, scope, element, attrs) {
 
 			var activeSlide = angular.element('.slick-active').attr('data-id');
-			$scope.active = activeSlide;
 
 			if (slide.id === activeSlide) {
 				return true;

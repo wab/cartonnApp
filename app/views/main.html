@@ -22,19 +22,18 @@
             <h2 class="col-sm-1">
                 <img src="images/accueil/titre-temoignages.png" alt="temoignages">
             </h2>
-            <div class="col-sm-6">                
-                <div class="temoignages">
+            <div class="col-sm-6 temoignages">                
+                <!-- <div class=""> -->
                     <div slick ng-transclude settings="slickConfigtemoignage" control="slickHandle">
                         <div ng-repeat="temoignage in pages.clients.temoignages | limitTo: 3">
                             <div class="thumb">
-                                <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive">
+                                <img src="{{temoignage.thumb}}" alt="{{temoignage.entreprise}}" class="img-responsive" />
                             </div>
 
                             <div class="wrapper">
                                 <rating class="rating" ng-model="temoignage.rate" readonly="true"></rating>
                                 <blockquote>
-                                    <strong class="text-primary">{{temoignage.blockquote[0]}}.</strong>
-                                    {{temoignage.blockquote[1]}}.
+                                    {{temoignage.blockquote[0]}} <strong class="text-primary">{{temoignage.blockquote[1]}}.</strong>
                                 </blockquote>
                                 <p>
                                     <strong>{{temoignage.entreprise[0]}},</strong><br>
@@ -47,7 +46,7 @@
                         <a ng-click="slickHandle.slickPrev()" class="prev">&nbsp;</span></a>
                         <a ng-click="slickHandle.slickNext()" class="next">&nbsp;</span></a>
                     </div>
-                </div>            
+                <!-- </div> -->            
             </div>
             <h2 class="col-sm-1">
                 <img src="images/accueil/titre-videos.png" alt="vidéos">

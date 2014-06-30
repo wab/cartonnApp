@@ -5,8 +5,8 @@
 				<small class="text-primary">Nos réalisations</small><br>
 				<strong>{{category.order + 1}} - {{category.name}}</strong>
 			</h1>
-			<a href="#/realisations" class="btn-retour"><img src="../images/retour.jpg" height="155" alt="retour aux rélisations"></a>
-			<a href="/" class="btn-accueil"><img src="../images/close.jpg" height="155" alt="retour à l'accueil"></a>
+			<a href="#/realisations" class="btn-retour"><img src="images/retour.jpg" height="155" alt="retour aux rélisations"></a>
+			<a href="/" class="btn-accueil"><img src="images/close.jpg" height="155" alt="retour à l'accueil"></a>
 		</header>
 		<div class="main row" role="main">
 			<div class="col-sm-8">
@@ -19,7 +19,7 @@
 						<h2>{{item.soustitre}}</h2>
 						<hr>
 						<p ng-repeat="paragraphe in item.description">{{paragraphe}}</p>
-						<p><strong>Apport :</strong> {{item.apport}}</p>
+						<p ng-if="item.apport !== ''"><strong>Apport :</strong> {{item.apport}}</p>
 					</div>
 				</section>
 			</div>
