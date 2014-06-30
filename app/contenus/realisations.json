@@ -30,11 +30,11 @@
 			"order": 1,
 			"id": "larzul",
 			"name": "Larzul",
-			"soustitre": "sous titre",
+			"soustitre": "",
 			"description": [
-				"description"
+				""
 				],
-			"apport": "texte",
+			"apport": "",
 			"image": "images/realisations/larzul.jpg"
 			},
 			{
@@ -69,22 +69,22 @@
 				"order": 0,
 				"id": "bieres-de-bretagne",
 				"name": "Bières de Bretagne",
-				"soustitre": "sous titre",
+				"soustitre": "",
 				"description": [
-					"description"
+					""
 					],
-				"apport": "apport",
+				"apport": "",
 				"image": "images/realisations/bieres-bretagne.jpg"
 				},
 				{
 				"order": 1,
 				"id": "biomereux",
 				"name": "Bioméreux",
-				"soustitre": "sous titre",
+				"soustitre": "",
 				"description": [
-					"description"
+					""
 					],
-				"apport": "apport",
+				"apport": "",
 				"image": "images/realisations/biomereux.jpg"
 				},
 				{
@@ -113,22 +113,22 @@
 				"order": 4,
 				"id": "mobiltron",
 				"name": "Mobiltron",
-				"soustitre": "sous titre",
+				"soustitre": "",
 				"description": [
-					"description"
+					""
 					],
-				"apport": "apport",
+				"apport": "",
 				"image": "images/realisations/mobiltron.jpg"
 				},
 				{
 				"order": 5,
 				"id": "huilerie",
 				"name": "Huilerie croix verte",
-				"soustitre": "sous titre",
+				"soustitre": "",
 				"description": [
-					"description"
+					""
 					],
-				"apport": "apport",
+				"apport": "",
 				"image": "images/realisations/huilerie.jpg"
 				}
 				
@@ -137,7 +137,7 @@
 	{
 		"id": "plv",
 		"name": "PLV",
-		"thumb": "images/realisations/",
+		"thumb": "images/realisations/ptitcraq.jpg",
 		"order": 2,
 		"soustitre" : "Les avantages",
 		"liste" : [
@@ -153,11 +153,11 @@
 				"order": 0,
 				"id": "interbio",
 				"name": "Interbio",
-				"soustitre": "sous titre",
+				"soustitre": "",
 				"description": [
-					"description"
+					""
 					],
-				"apport": "apport",
+				"apport": "",
 				"image": "images/realisations/interbio.jpg"
 				},
 				{
@@ -176,11 +176,11 @@
 				"order": 2,
 				"id": "soframar",
 				"name": "Soframar",
-				"soustitre": "sous titre",
+				"soustitre": "",
 				"description": [
-					"description"
+					""
 					],
-				"apport": "apport",
+				"apport": "",
 				"image": "images/realisations/soframar.jpg"
 				}
 			]
@@ -188,7 +188,7 @@
 	{
 	"id": "impression",
 	"name": "L'impression",
-	"thumb": "images/realisations/",
+	"thumb": "images/realisations/fleurdenicolas.jpg",
 	"order": 2,
 	"soustitre" : "Les avantages",
 	"description" : "Réalisation de l’impression flexo : impression directe",
@@ -239,11 +239,11 @@
 		"order": 3,
 		"id": "larzul",
 		"name": "Larzul",
-		"soustitre": "sous titre",
+		"soustitre": "",
 		"description": [
-			"description"
+			""
 			],
-		"apport": "texte",
+		"apport": "",
 		"image": "images/realisations/larzul.jpg"
 		},
 		{
@@ -262,7 +262,7 @@
 		"order": 5,
 		"id": "sercel",
 		"name": "Sercel",
-		"soustitre": "dcoupe montage manuel",
+		"soustitre": "découpe montage manuel",
 		"description": [
 			"Emballage réalisé avec un traitement technique antistatique répondant aux contraintes de l’industrie électronique, ensemble d’un fond, couvercle et de croisillons positionnables suivant les dimensions du produit"
 			],
@@ -314,11 +314,11 @@
 		"order": 1,
 		"id": "larzul",
 		"name": "Larzul",
-		"soustitre": "sous titre",
+		"soustitre": "",
 		"description": [
-			"description"
+			""
 			],
-		"apport": "texte",
+		"apport": "",
 		"image": "images/realisations/larzul.jpg"
 		},
 		{

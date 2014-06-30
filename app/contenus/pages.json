@@ -16,21 +16,21 @@
 		{
 			"id": "01",
 			"thumb": "images/clients/temoignages/cordon-electronics.jpg",
-			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"blockquote": ["Constance dans","la qualité"],
 			"entreprise": ["cordon electronics","dinan"],
 			"rate": 4
 		},
 		{
 			"id": "02",
 			"thumb": "images/clients/temoignages/combier.jpg",
-			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"blockquote": ["Niveau", "d'expertise"],
 			"entreprise": ["Distillerie Combier","Dinard"],
-			"rate": 3
+			"rate": 5
 		},
 		{
 			"id": "03",
 			"thumb": "images/clients/temoignages/magm.jpg",
-			"blockquote": ["des réalisations de qualité","l'expertise à votre service"],
+			"blockquote": ["Tout se passe","bien"],
 			"entreprise": ["Mag M","Dinard"],
 			"rate": 4
 		}
@@ -50,7 +50,7 @@
 		{
 			"title": "titre 2",
 			"thumb": "images/clients/videos/mag-m.jpg",
-			"file":"../videos/itw_magm.mp4"
+			"file":"videos/itw_magm.mp4"
 		}
 	]
 },
@@ -72,7 +72,7 @@
 			"image" : "images/entreprise/slide-chiffres-cles.png"
 		},
 		{
-			"id": "entreprise",
+			"id": "entreprise-3",
 			"order" : 2,
 			"title" : ["Une entreprise qui", "croit en son avenir"],
 			"image" : "images/entreprise/slide-entreprise.jpg"
@@ -150,7 +150,7 @@
 		},
 		{
 			"order" : 1,
-			"category": "box",
+			"category": ["box","etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-box-conbini.jpg",
 			"url" : "/realisations/box/conbini"
@@ -160,11 +160,11 @@
 			"category": "box",
 			"class": "product",
 			"image" : "images/realisations/thumb-box-larzul.jpg",
-			"url" : "/realisations/box/larzoul"
+			"url" : "/realisations/box/larzul"
 		},
 		{
 			"order" : 3,
-			"category": "box",
+			"category": ["box","etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-box-tipiak.jpg",
 			"url" : "/realisations/box/tipiak"
@@ -194,12 +194,19 @@
 			"order" : 7,
 			"category": "fonds-auto",
 			"class": "product",
+			"image" : "images/realisations/thumb-fondsauto-huilerie-croix-verte.jpg",
+			"url" : "/realisations/fonds-auto/huilerie"
+		},
+		{
+			"order" : 8,
+			"category": ["fonds-auto", "etude-de-cas"],
+			"class": "product",
 			"image" : "images/realisations/thumb-fondsauto-couthouis.jpg",
 			"url" : "/realisations/fonds-auto/couthouis"
 		},
 		{
-			"order" : 14,
-			"category": "fonds-auto",
+			"order" : 22,
+			"category": ["fonds-auto", "etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-fondsauto-migros.jpg",
 			"url" : "/realisations/fonds-auto/migros"
@@ -227,7 +234,7 @@
 		},
 		{
 			"order" : 12,
-			"category": "plv",
+			"category": ["plv", "etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-plv-ptitcraq.jpg",
 			"url" : "/realisations/plv/ptitcraq"
@@ -240,7 +247,7 @@
 			"url" : "/realisations/plv/soframar"
 		},
 		{
-			"order" : 8,
+			"order" : 14,
 			"category": "impression",
 			"class": "category",
 			"image" : "images/realisations/thumb-impression.jpg",
@@ -248,7 +255,7 @@
 		},
 		{
 			"order" : 15,
-			"category": "impression",
+			"category": ["impression", "etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-impression-combier.jpg",
 			"url" : "/realisations/impression/combier"
@@ -262,7 +269,7 @@
 		},
 		{
 			"order" : 17,
-			"category": "impression",
+			"category": ["impression", "etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-impression-fleurdenicolas.jpg",
 			"url" : "/realisations/impression/fleurdenicolas"
@@ -283,7 +290,7 @@
 		},
 		{
 			"order" : 20,
-			"category": "impression",
+			"category": ["impression", "etude-de-cas"],
 			"class": "product",
 			"image" : "images/realisations/thumb-impression-sercel.jpg",
 			"url" : "/realisations/impression/sercel"
@@ -306,24 +313,42 @@
 			"id": "services-1",
 			"order" : 0,
 			"title" : ["Bureau d'étude", "integré"],
-			"image" : ""
+			"image" : "images/services/slide-1.jpg"
 		},
 		{
 			"id": "services-2",
 			"order" : 1,
-			"title" : ["", "conseil"],
-			"image" : ""
+			"title" : ["conseil"],
+			"image" : "images/services/slide-2.jpg",
+			"videos" : [
+			{
+				"title" : "vidéos 4cc",
+				"url" : "videos/conseil-1.mp4"
+			},
+			{
+				"title" : "vidéos fd 6 cases",
+				"url" : "videos/conseil-2.mp4"
+			},
+			{
+				"title" : "vidéos fd auto",
+				"url" : "videos/conseil-3.mp4"
+			},
+			{
+				"title" : "vidéos process",
+				"url" : "videos/conseil-4.mp4"
+			}
+			]
 		},
 		{
 			"id": "services-3",
 			"order" : 2,
 			"title" : ["Réactivité", "et proximité "],
-			"image" : "images/services/reactivite-proximite.png"
+			"image" : "images/services/slide-3.jpg"
 		},{
 			"id": "services-4",
 			"order" : 3,
 			"title" : ["Respect", "des engagements"],
-			"image" : ""
+			"image" : "images/services/slide-4.jpg"
 		} 
 		]
 	},
