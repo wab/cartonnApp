@@ -7,7 +7,6 @@ var cartonnApp = angular.module('cartonnApp', [
   'ngRoute',
   'ngTouch',
   'snap',
-  'com.2fdevs.videogular',
   'bardo.directives',
   'FBAngular',
   'wu.masonry',

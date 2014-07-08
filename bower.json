@@ -15,7 +15,6 @@
     "angular-snap": "1.4.1",
     "angular-touch": "1.2.16",
     "angular-fullscreen": "*",
-    "videogular": "~1.0.0",
     "angular-masonry": "~0.8.1",
     "angular-bootstrap": "~0.11.0",
     "ngDialog": "~0.1.7"
